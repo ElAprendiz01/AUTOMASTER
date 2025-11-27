@@ -1,0 +1,18 @@
+CREATE OR ALTER PROCEDURE SPEliminarPago
+(
+    @Id_Pago INT
+)
+AS
+BEGIN
+    BEGIN TRY
+        BEGIN TRAN
+            DELETE FROM Pagos WHERE Id_Pago = @Id_Pago
+        COMMIT
+        PRINT 'PAGO ELIMINADO'
+    END TRY
+    BEGIN CATCH
+        ROLLBACK
+        PRINT 'ERROR ELIMINAR PAGO: ' + ERROR_MESSAGE()
+    END CATCH
+END
+GO

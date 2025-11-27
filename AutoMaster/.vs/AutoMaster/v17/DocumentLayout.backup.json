@@ -1,0 +1,176 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Dell\\Desktop\\Programacion con base de datos 4to a\u00F1o\\AutoMaster\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{36AE27CB-3A2A-4285-B8BC-89BADBF54FBD}|..\\CAPA_ENTIDAD\\CAPA_ENTIDAD.csproj|c:\\users\\dell\\desktop\\programacion con base de datos 4to a\u00F1o\\capa_entidad\\ce_empelados.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6D210FA-9B97-46E8-98A1-D142C7B5FC16}|CapaPresentacion.csproj|c:\\users\\dell\\desktop\\programacion con base de datos 4to a\u00F1o\\automaster\\frm_empleados\\frmactualizarempelados.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C6D210FA-9B97-46E8-98A1-D142C7B5FC16}|CapaPresentacion.csproj|solutionrelative:frm_empleados\\frmactualizarempelados.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6D210FA-9B97-46E8-98A1-D142C7B5FC16}|CapaPresentacion.csproj|c:\\users\\dell\\desktop\\programacion con base de datos 4to a\u00F1o\\automaster\\frm_empleados\\frmactualizarempelados.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C6D210FA-9B97-46E8-98A1-D142C7B5FC16}|CapaPresentacion.csproj|solutionrelative:frm_empleados\\frmactualizarempelados.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6D210FA-9B97-46E8-98A1-D142C7B5FC16}|CapaPresentacion.csproj|C:\\Users\\Dell\\Desktop\\Programacion con base de datos 4to a\u00F1o\\AutoMaster\\fmrcontacto\\frmactualizarcontacto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C6D210FA-9B97-46E8-98A1-D142C7B5FC16}|CapaPresentacion.csproj|solutionrelative:fmrcontacto\\frmactualizarcontacto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6D210FA-9B97-46E8-98A1-D142C7B5FC16}|CapaPresentacion.csproj|c:\\users\\dell\\desktop\\programacion con base de datos 4to a\u00F1o\\automaster\\frm_empleados\\frminsertarempleados.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C6D210FA-9B97-46E8-98A1-D142C7B5FC16}|CapaPresentacion.csproj|solutionrelative:frm_empleados\\frminsertarempleados.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6D210FA-9B97-46E8-98A1-D142C7B5FC16}|CapaPresentacion.csproj|c:\\users\\dell\\desktop\\programacion con base de datos 4to a\u00F1o\\automaster\\frm_empleados\\frmprinempleados.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C6D210FA-9B97-46E8-98A1-D142C7B5FC16}|CapaPresentacion.csproj|solutionrelative:frm_empleados\\frmprinempleados.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6D210FA-9B97-46E8-98A1-D142C7B5FC16}|CapaPresentacion.csproj|c:\\users\\dell\\desktop\\programacion con base de datos 4to a\u00F1o\\automaster\\frm_empleados\\frmprinempleados.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C6D210FA-9B97-46E8-98A1-D142C7B5FC16}|CapaPresentacion.csproj|solutionrelative:frm_empleados\\frmprinempleados.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6D210FA-9B97-46E8-98A1-D142C7B5FC16}|CapaPresentacion.csproj|c:\\users\\dell\\desktop\\programacion con base de datos 4to a\u00F1o\\automaster\\frmcontactoproveedor\\frmprincontactoproveedor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C6D210FA-9B97-46E8-98A1-D142C7B5FC16}|CapaPresentacion.csproj|solutionrelative:frmcontactoproveedor\\frmprincontactoproveedor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6D210FA-9B97-46E8-98A1-D142C7B5FC16}|CapaPresentacion.csproj|c:\\users\\dell\\desktop\\programacion con base de datos 4to a\u00F1o\\automaster\\frmcontactoproveedor\\frmprincontactoproveedor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C6D210FA-9B97-46E8-98A1-D142C7B5FC16}|CapaPresentacion.csproj|solutionrelative:frmcontactoproveedor\\frmprincontactoproveedor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 100,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "frmActualizarCONTACTO.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\Programacion con base de datos 4to a\u00F1o\\AutoMaster\\fmrContacto\\frmActualizarCONTACTO.cs",
+              "RelativeDocumentMoniker": "fmrContacto\\frmActualizarCONTACTO.cs",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\Programacion con base de datos 4to a\u00F1o\\AutoMaster\\fmrContacto\\frmActualizarCONTACTO.cs [Dise\u00F1o]",
+              "RelativeToolTip": "fmrContacto\\frmActualizarCONTACTO.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-26T02:48:34.121Z",
+              "IsPinned": true,
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CE_Empelados.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\Programacion con base de datos 4to a\u00F1o\\CAPA_ENTIDAD\\CE_Empelados.cs",
+              "RelativeDocumentMoniker": "..\\CAPA_ENTIDAD\\CE_Empelados.cs",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\Programacion con base de datos 4to a\u00F1o\\CAPA_ENTIDAD\\CE_Empelados.cs",
+              "RelativeToolTip": "..\\CAPA_ENTIDAD\\CE_Empelados.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-27T01:51:01.268Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "frmActualizarEmpelados.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\Programacion con base de datos 4to a\u00F1o\\AutoMaster\\frm_Empleados\\frmActualizarEmpelados.cs",
+              "RelativeDocumentMoniker": "frm_Empleados\\frmActualizarEmpelados.cs",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\Programacion con base de datos 4to a\u00F1o\\AutoMaster\\frm_Empleados\\frmActualizarEmpelados.cs",
+              "RelativeToolTip": "frm_Empleados\\frmActualizarEmpelados.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAqwBoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-27T00:26:17.031Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "frmInsertarEmpleados.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\Programacion con base de datos 4to a\u00F1o\\AutoMaster\\frm_Empleados\\frmInsertarEmpleados.cs",
+              "RelativeDocumentMoniker": "frm_Empleados\\frmInsertarEmpleados.cs",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\Programacion con base de datos 4to a\u00F1o\\AutoMaster\\frm_Empleados\\frmInsertarEmpleados.cs [Dise\u00F1o]",
+              "RelativeToolTip": "frm_Empleados\\frmInsertarEmpleados.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-27T00:24:17.621Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "frmActualizarEmpelados.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\Programacion con base de datos 4to a\u00F1o\\AutoMaster\\frm_Empleados\\frmActualizarEmpelados.cs",
+              "RelativeDocumentMoniker": "frm_Empleados\\frmActualizarEmpelados.cs",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\Programacion con base de datos 4to a\u00F1o\\AutoMaster\\frm_Empleados\\frmActualizarEmpelados.cs [Dise\u00F1o]",
+              "RelativeToolTip": "frm_Empleados\\frmActualizarEmpelados.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-27T00:24:01.326Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "frmPrinEmpleados.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\Programacion con base de datos 4to a\u00F1o\\AutoMaster\\frm_Empleados\\frmPrinEmpleados.cs",
+              "RelativeDocumentMoniker": "frm_Empleados\\frmPrinEmpleados.cs",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\Programacion con base de datos 4to a\u00F1o\\AutoMaster\\frm_Empleados\\frmPrinEmpleados.cs",
+              "RelativeToolTip": "frm_Empleados\\frmPrinEmpleados.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAqwBkAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-27T00:20:47.89Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "frmPrinEmpleados.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\Programacion con base de datos 4to a\u00F1o\\AutoMaster\\frm_Empleados\\frmPrinEmpleados.cs",
+              "RelativeDocumentMoniker": "frm_Empleados\\frmPrinEmpleados.cs",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\Programacion con base de datos 4to a\u00F1o\\AutoMaster\\frm_Empleados\\frmPrinEmpleados.cs [Dise\u00F1o]",
+              "RelativeToolTip": "frm_Empleados\\frmPrinEmpleados.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-27T00:20:46.319Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "frmPrinContactoProveedor.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\Programacion con base de datos 4to a\u00F1o\\AutoMaster\\frmContactoProveedor\\frmPrinContactoProveedor.cs",
+              "RelativeDocumentMoniker": "frmContactoProveedor\\frmPrinContactoProveedor.cs",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\Programacion con base de datos 4to a\u00F1o\\AutoMaster\\frmContactoProveedor\\frmPrinContactoProveedor.cs",
+              "RelativeToolTip": "frmContactoProveedor\\frmPrinContactoProveedor.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAowDQAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-27T00:20:31.082Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "frmPrinContactoProveedor.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\Programacion con base de datos 4to a\u00F1o\\AutoMaster\\frmContactoProveedor\\frmPrinContactoProveedor.cs",
+              "RelativeDocumentMoniker": "frmContactoProveedor\\frmPrinContactoProveedor.cs",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\Programacion con base de datos 4to a\u00F1o\\AutoMaster\\frmContactoProveedor\\frmPrinContactoProveedor.cs [Dise\u00F1o]",
+              "RelativeToolTip": "frmContactoProveedor\\frmPrinContactoProveedor.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-27T00:20:29.839Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

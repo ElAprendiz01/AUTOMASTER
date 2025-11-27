@@ -1,0 +1,23 @@
+use AUTOMASTER
+go 
+
+CREATE OR ALTER PROCEDURE SPeliminarDirecciones 
+(
+  @Id_Direccion INT
+)
+AS 
+ BEGIN 
+	set nocount on ;
+	BEGIN TRY
+		BEGIN TRAN
+		DELETE Tbl_Direcciones WHERE Id_Direccion=@Id_Direccion
+		COMMIT 
+		PRINT 'SE HA ELIMINADO CORRECTAMENTE'
+		END TRY 
+	BEGIN CATCH 
+		PRINT'NO SE HA PODIDO ELIMINAR '+ @@ERROR
+	END CATCH 
+END 
+GO 
+SELECT * FROM Tbl_Direcciones
+

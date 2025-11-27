@@ -1,0 +1,21 @@
+USE AUTOMASTER
+GO
+
+CREATE OR ALTER PROCEDURE SPEliminarProveedores
+(
+   @Id_Proveedor INT
+)
+AS 
+BEGIN 
+	BEGIN TRY 
+	 BEGIN TRAN 
+	  DELETE Tbl_Proveedores WHERE Id_Proveedor = @Id_Proveedor
+	 COMMIT 
+		PRINT 'SE HA ELIMINADO'
+     END TRY 
+	 BEGIN CATCH 
+	 ROLLBACK
+		PRINT 'NO SE HA PODIDO ELIMINAR '+  @@ERROR
+	END CATCH 
+END 
+GO

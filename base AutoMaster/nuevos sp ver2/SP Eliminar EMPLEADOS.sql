@@ -1,0 +1,22 @@
+USE AUTOMASTER
+GO
+
+CREATE OR ALTER PROCEDURE SPeliminarEmpleados
+(
+   @Id_Empleado INT
+)
+AS
+BEGIN
+    BEGIN TRY
+        BEGIN TRAN
+            DELETE FROM Empleados WHERE Id_Empleado = @Id_Empleado
+        COMMIT
+        PRINT 'SE HA ELIMINADO EL EMPLEADO'
+    END TRY
+    BEGIN CATCH
+        ROLLBACK
+        PRINT 'NO SE HA PODIDO ELIMINAR: ' + ERROR_MESSAGE()
+    END CATCH
+END
+GO
+

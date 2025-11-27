@@ -1,0 +1,25 @@
+USE AUTOMASTER
+GO
+
+
+
+CREATE OR ALTER PROCEDURE SPEliminarVenta
+(
+    @Id_Venta INT
+)
+AS
+BEGIN
+    BEGIN TRY
+        BEGIN TRAN
+            DELETE FROM Ventas WHERE Id_Venta = @Id_Venta
+        COMMIT
+        PRINT 'VENTA ELIMINADA CORRECTAMENTE'
+    END TRY
+    BEGIN CATCH
+        ROLLBACK
+        PRINT 'ERROR AL ELIMINAR VENTA: ' + ERROR_MESSAGE()
+    END CATCH
+END
+GO
+
+

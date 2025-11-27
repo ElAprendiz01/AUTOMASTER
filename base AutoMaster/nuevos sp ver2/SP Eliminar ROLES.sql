@@ -1,0 +1,24 @@
+USE AUTOMASTER
+GO
+
+CREATE OR ALTER PROCEDURE SPEliminarRol
+(
+   @Id_Rol INT
+)
+AS
+BEGIN
+    BEGIN TRY
+        BEGIN TRAN
+            DELETE FROM Roles WHERE Id_Rol = @Id_Rol
+        COMMIT
+        PRINT 'SE HA ELIMINADO EL ROL'
+    END TRY
+    BEGIN CATCH
+        ROLLBACK
+        PRINT 'ERROR: ' + ERROR_MESSAGE()
+    END CATCH
+END
+GO
+
+SELECT * FROM Roles
+EXEC SPEliminarRol @Id_Rol = 2

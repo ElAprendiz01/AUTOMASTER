@@ -1,0 +1,23 @@
+USE AUTOMASTER
+GO
+
+CREATE OR ALTER PROCEDURE SPInsertarRol
+(
+   @Nombre_Rol VARCHAR(100)
+)
+AS
+BEGIN
+    BEGIN TRY
+        BEGIN TRAN
+            INSERT INTO Roles(Nombre_Rol)
+            VALUES (@Nombre_Rol)
+        COMMIT
+        PRINT 'SE HA INSERTADO EL ROL'
+    END TRY
+    BEGIN CATCH
+        ROLLBACK
+        PRINT 'ERROR: ' + ERROR_MESSAGE()
+    END CATCH
+END
+GO
+

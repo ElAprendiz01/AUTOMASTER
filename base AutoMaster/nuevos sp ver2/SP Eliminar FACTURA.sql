@@ -1,0 +1,18 @@
+CREATE OR ALTER PROCEDURE SPEliminarFactura
+(
+    @Id_Factura INT
+)
+AS
+BEGIN
+    BEGIN TRY
+        BEGIN TRAN
+            DELETE FROM Facturas WHERE Id_Factura = @Id_Factura
+        COMMIT
+        PRINT 'FACTURA ELIMINADA'
+    END TRY
+    BEGIN CATCH
+        ROLLBACK
+        PRINT 'ERROR ELIMINAR FACTURA: ' + ERROR_MESSAGE()
+    END CATCH
+END
+GO

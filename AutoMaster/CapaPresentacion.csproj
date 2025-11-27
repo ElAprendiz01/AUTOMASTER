@@ -1,0 +1,474 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{C6D210FA-9B97-46E8-98A1-D142C7B5FC16}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>AutoMaster</RootNamespace>
+    <AssemblyName>AutoMaster</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Azure.Core, Version=1.47.1.0, Culture=neutral, PublicKeyToken=92742159e12e44c8, processorArchitecture=MSIL">
+      <HintPath>packages\Azure.Core.1.47.1\lib\net472\Azure.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Azure.Identity, Version=1.14.2.0, Culture=neutral, PublicKeyToken=92742159e12e44c8, processorArchitecture=MSIL">
+      <HintPath>packages\Azure.Identity.1.14.2\lib\netstandard2.0\Azure.Identity.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Bcl.AsyncInterfaces, Version=8.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>packages\Microsoft.Bcl.AsyncInterfaces.8.0.0\lib\net462\Microsoft.Bcl.AsyncInterfaces.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Bcl.Cryptography, Version=8.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>packages\Microsoft.Bcl.Cryptography.8.0.0\lib\net462\Microsoft.Bcl.Cryptography.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Data.SqlClient, Version=6.0.0.0, Culture=neutral, PublicKeyToken=23ec7fc2d6eaa4a5, processorArchitecture=MSIL">
+      <HintPath>packages\Microsoft.Data.SqlClient.6.1.3\lib\net462\Microsoft.Data.SqlClient.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.Caching.Abstractions, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>packages\Microsoft.Extensions.Caching.Abstractions.8.0.0\lib\net462\Microsoft.Extensions.Caching.Abstractions.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.Caching.Memory, Version=8.0.0.1, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>packages\Microsoft.Extensions.Caching.Memory.8.0.1\lib\net462\Microsoft.Extensions.Caching.Memory.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.DependencyInjection.Abstractions, Version=8.0.0.2, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>packages\Microsoft.Extensions.DependencyInjection.Abstractions.8.0.2\lib\net462\Microsoft.Extensions.DependencyInjection.Abstractions.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.Logging.Abstractions, Version=8.0.0.3, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>packages\Microsoft.Extensions.Logging.Abstractions.8.0.3\lib\net462\Microsoft.Extensions.Logging.Abstractions.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.Options, Version=8.0.0.2, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>packages\Microsoft.Extensions.Options.8.0.2\lib\net462\Microsoft.Extensions.Options.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.Primitives, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>packages\Microsoft.Extensions.Primitives.8.0.0\lib\net462\Microsoft.Extensions.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Identity.Client, Version=4.73.1.0, Culture=neutral, PublicKeyToken=0a613f4dd989e8ae, processorArchitecture=MSIL">
+      <HintPath>packages\Microsoft.Identity.Client.4.73.1\lib\net472\Microsoft.Identity.Client.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Identity.Client.Extensions.Msal, Version=4.73.1.0, Culture=neutral, PublicKeyToken=0a613f4dd989e8ae, processorArchitecture=MSIL">
+      <HintPath>packages\Microsoft.Identity.Client.Extensions.Msal.4.73.1\lib\netstandard2.0\Microsoft.Identity.Client.Extensions.Msal.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.IdentityModel.Abstractions, Version=7.7.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>packages\Microsoft.IdentityModel.Abstractions.7.7.1\lib\net472\Microsoft.IdentityModel.Abstractions.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.IdentityModel.JsonWebTokens, Version=7.7.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>packages\Microsoft.IdentityModel.JsonWebTokens.7.7.1\lib\net472\Microsoft.IdentityModel.JsonWebTokens.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.IdentityModel.Logging, Version=7.7.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>packages\Microsoft.IdentityModel.Logging.7.7.1\lib\net472\Microsoft.IdentityModel.Logging.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.IdentityModel.Protocols, Version=7.7.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>packages\Microsoft.IdentityModel.Protocols.7.7.1\lib\net472\Microsoft.IdentityModel.Protocols.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.IdentityModel.Protocols.OpenIdConnect, Version=7.7.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>packages\Microsoft.IdentityModel.Protocols.OpenIdConnect.7.7.1\lib\net472\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.IdentityModel.Tokens, Version=7.7.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>packages\Microsoft.IdentityModel.Tokens.7.7.1\lib\net472\Microsoft.IdentityModel.Tokens.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Buffers, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>packages\System.Buffers.4.5.1\lib\net461\System.Buffers.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ClientModel, Version=1.5.1.0, Culture=neutral, PublicKeyToken=92742159e12e44c8, processorArchitecture=MSIL">
+      <HintPath>packages\System.ClientModel.1.5.1\lib\netstandard2.0\System.ClientModel.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.Common, Version=4.1.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>packages\System.Data.Common.4.3.0\lib\net451\System.Data.Common.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Diagnostics.DiagnosticSource, Version=8.0.0.1, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>packages\System.Diagnostics.DiagnosticSource.8.0.1\lib\net462\System.Diagnostics.DiagnosticSource.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IdentityModel" />
+    <Reference Include="System.IdentityModel.Tokens.Jwt, Version=7.7.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>packages\System.IdentityModel.Tokens.Jwt.7.7.1\lib\net472\System.IdentityModel.Tokens.Jwt.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.FileSystem.AccessControl, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>packages\System.IO.FileSystem.AccessControl.5.0.0\lib\net461\System.IO.FileSystem.AccessControl.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Memory, Version=4.0.1.2, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>packages\System.Memory.4.5.5\lib\net461\System.Memory.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Memory.Data, Version=8.0.0.1, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>packages\System.Memory.Data.8.0.1\lib\net462\System.Memory.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Numerics" />
+    <Reference Include="System.Numerics.Vectors, Version=4.1.4.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>packages\System.Numerics.Vectors.4.5.0\lib\net46\System.Numerics.Vectors.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.CompilerServices.Unsafe, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>packages\System.Runtime.CompilerServices.Unsafe.6.0.0\lib\net461\System.Runtime.CompilerServices.Unsafe.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security" />
+    <Reference Include="System.Security.AccessControl, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>packages\System.Security.AccessControl.5.0.0\lib\net461\System.Security.AccessControl.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Pkcs, Version=8.0.0.1, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>packages\System.Security.Cryptography.Pkcs.8.0.1\lib\net462\System.Security.Cryptography.Pkcs.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.ProtectedData, Version=4.0.3.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>packages\System.Security.Cryptography.ProtectedData.4.5.0\lib\net461\System.Security.Cryptography.ProtectedData.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Principal.Windows, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>packages\System.Security.Principal.Windows.5.0.0\lib\net461\System.Security.Principal.Windows.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Text.Encodings.Web, Version=8.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>packages\System.Text.Encodings.Web.8.0.0\lib\net462\System.Text.Encodings.Web.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Text.Json, Version=8.0.0.5, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>packages\System.Text.Json.8.0.5\lib\net462\System.Text.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.Tasks.Extensions, Version=4.2.0.1, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>packages\System.Threading.Tasks.Extensions.4.5.4\lib\net461\System.Threading.Tasks.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ValueTuple, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>packages\System.ValueTuple.4.5.0\lib\net47\System.ValueTuple.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="fmrContacto\frmActualizarCONTACTO.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fmrContacto\frmActualizarCONTACTO.Designer.cs">
+      <DependentUpon>frmActualizarCONTACTO.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fmrContacto\frmInsertarCONTACTO.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fmrContacto\frmInsertarCONTACTO.Designer.cs">
+      <DependentUpon>frmInsertarCONTACTO.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fmrContacto\frmPrinContacto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fmrContacto\frmPrinContacto.Designer.cs">
+      <DependentUpon>frmPrinContacto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmContactoProveedor\frmActualizarContactoProveedor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmContactoProveedor\frmActualizarContactoProveedor.Designer.cs">
+      <DependentUpon>frmActualizarContactoProveedor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmContactoProveedor\FrmInsertarContactoProveedor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmContactoProveedor\FrmInsertarContactoProveedor.Designer.cs">
+      <DependentUpon>FrmInsertarContactoProveedor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmContactoProveedor\frmPrinContactoProveedor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmContactoProveedor\frmPrinContactoProveedor.Designer.cs">
+      <DependentUpon>frmPrinContactoProveedor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmDirecciones\frmActualizarDirecciones.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDirecciones\frmActualizarDirecciones.Designer.cs">
+      <DependentUpon>frmActualizarDirecciones.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmDirecciones\frmInsertarDirecciones.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDirecciones\frmInsertarDirecciones.Designer.cs">
+      <DependentUpon>frmInsertarDirecciones.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmDirecciones\frmPrinDirecciones.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDirecciones\frmPrinDirecciones.Designer.cs">
+      <DependentUpon>frmPrinDirecciones.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmProveedores\frmActualizarProveedores.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmProveedores\frmActualizarProveedores.Designer.cs">
+      <DependentUpon>frmActualizarProveedores.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmProveedores\frmInsertarProveedores.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmProveedores\frmInsertarProveedores.Designer.cs">
+      <DependentUpon>frmInsertarProveedores.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmProveedores\frmPrinProveedores.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmProveedores\frmPrinProveedores.Designer.cs">
+      <DependentUpon>frmPrinProveedores.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_Actualizar_DatosPersonales.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_Actualizar_DatosPersonales.Designer.cs">
+      <DependentUpon>frm_Actualizar_DatosPersonales.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_Actualizar_Estado.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_Actualizar_Estado.Designer.cs">
+      <DependentUpon>Frm_Actualizar_Estado.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CPEstilos.cs" />
+    <Compile Include="frm_Actualizar_Catalogo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_Actualizar_Catalogo.Designer.cs">
+      <DependentUpon>frm_Actualizar_Catalogo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_Actilizar_TipoDeCatalogo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_Actilizar_TipoDeCatalogo.Designer.cs">
+      <DependentUpon>frm_Actilizar_TipoDeCatalogo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_Empleados\frmActualizarEmpelados.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_Empleados\frmActualizarEmpelados.Designer.cs">
+      <DependentUpon>frmActualizarEmpelados.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_Empleados\frmInsertarEmpleados.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_Empleados\frmInsertarEmpleados.Designer.cs">
+      <DependentUpon>frmInsertarEmpleados.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_Empleados\frmPrinEmpleados.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_Empleados\frmPrinEmpleados.Designer.cs">
+      <DependentUpon>frmPrinEmpleados.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_insertar_DatosPersonales.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_insertar_DatosPersonales.Designer.cs">
+      <DependentUpon>Frm_insertar_DatosPersonales.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_insertar_Nuevo_catalogo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_insertar_Nuevo_catalogo.Designer.cs">
+      <DependentUpon>Frm_insertar_Nuevo_catalogo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_prin_Estado.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_prin_Estado.Designer.cs">
+      <DependentUpon>Frm_prin_Estado.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_insertarNuevo_Estado.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_insertarNuevo_Estado.Designer.cs">
+      <DependentUpon>frm_insertarNuevo_Estado.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_insertar_Nuevo_TipoDeCatalogo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_insertar_Nuevo_TipoDeCatalogo.Designer.cs">
+      <DependentUpon>frm_insertar_Nuevo_TipoDeCatalogo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_Prin_TipoDeCatalogo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_Prin_TipoDeCatalogo.Designer.cs">
+      <DependentUpon>frm_Prin_TipoDeCatalogo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_base.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_base.Designer.cs">
+      <DependentUpon>frm_base.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_PrinCatalogo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_PrinCatalogo.Designer.cs">
+      <DependentUpon>frm_PrinCatalogo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_principal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_principal.Designer.cs">
+      <DependentUpon>Frm_principal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Frm_Prin_DatosPersonales.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_Prin_DatosPersonales.Designer.cs">
+      <DependentUpon>Frm_Prin_DatosPersonales.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="fmrContacto\frmActualizarCONTACTO.resx">
+      <DependentUpon>frmActualizarCONTACTO.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fmrContacto\frmInsertarCONTACTO.resx">
+      <DependentUpon>frmInsertarCONTACTO.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fmrContacto\frmPrinContacto.resx">
+      <DependentUpon>frmPrinContacto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmContactoProveedor\frmActualizarContactoProveedor.resx">
+      <DependentUpon>frmActualizarContactoProveedor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmContactoProveedor\FrmInsertarContactoProveedor.resx">
+      <DependentUpon>FrmInsertarContactoProveedor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmContactoProveedor\frmPrinContactoProveedor.resx">
+      <DependentUpon>frmPrinContactoProveedor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDirecciones\frmActualizarDirecciones.resx">
+      <DependentUpon>frmActualizarDirecciones.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDirecciones\frmInsertarDirecciones.resx">
+      <DependentUpon>frmInsertarDirecciones.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDirecciones\frmPrinDirecciones.resx">
+      <DependentUpon>frmPrinDirecciones.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmProveedores\frmActualizarProveedores.resx">
+      <DependentUpon>frmActualizarProveedores.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmProveedores\frmInsertarProveedores.resx">
+      <DependentUpon>frmInsertarProveedores.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmProveedores\frmPrinProveedores.resx">
+      <DependentUpon>frmPrinProveedores.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_Actualizar_DatosPersonales.resx">
+      <DependentUpon>frm_Actualizar_DatosPersonales.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_Actualizar_Estado.resx">
+      <DependentUpon>Frm_Actualizar_Estado.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_Actualizar_Catalogo.resx">
+      <DependentUpon>frm_Actualizar_Catalogo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_Actilizar_TipoDeCatalogo.resx">
+      <DependentUpon>frm_Actilizar_TipoDeCatalogo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_Empleados\frmActualizarEmpelados.resx">
+      <DependentUpon>frmActualizarEmpelados.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_Empleados\frmInsertarEmpleados.resx">
+      <DependentUpon>frmInsertarEmpleados.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_Empleados\frmPrinEmpleados.resx">
+      <DependentUpon>frmPrinEmpleados.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_insertar_DatosPersonales.resx">
+      <DependentUpon>Frm_insertar_DatosPersonales.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_insertar_Nuevo_catalogo.resx">
+      <DependentUpon>Frm_insertar_Nuevo_catalogo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_prin_Estado.resx">
+      <DependentUpon>Frm_prin_Estado.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_insertarNuevo_Estado.resx">
+      <DependentUpon>frm_insertarNuevo_Estado.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_insertar_Nuevo_TipoDeCatalogo.resx">
+      <DependentUpon>frm_insertar_Nuevo_TipoDeCatalogo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_Prin_TipoDeCatalogo.resx">
+      <DependentUpon>frm_Prin_TipoDeCatalogo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_base.resx">
+      <DependentUpon>frm_base.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_PrinCatalogo.resx">
+      <DependentUpon>frm_PrinCatalogo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_principal.resx">
+      <DependentUpon>Frm_principal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Frm_Prin_DatosPersonales.resx">
+      <DependentUpon>Frm_Prin_DatosPersonales.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CAPA_ENTIDAD\CAPA_ENTIDAD.csproj">
+      <Project>{36ae27cb-3a2a-4285-b8bc-89badbf54fbd}</Project>
+      <Name>CAPA_ENTIDAD</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CAPA_NEGOCIO\CAPA_NEGOCIO.csproj">
+      <Project>{e4ec1c16-1ad7-48e4-9ad6-ee5a3cd59723}</Project>
+      <Name>CAPA_NEGOCIO</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Import Project="packages\Microsoft.Data.SqlClient.SNI.6.0.2\build\net462\Microsoft.Data.SqlClient.SNI.targets" Condition="Exists('packages\Microsoft.Data.SqlClient.SNI.6.0.2\build\net462\Microsoft.Data.SqlClient.SNI.targets')" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>Este proyecto hace referencia a los paquetes NuGet que faltan en este equipo. Use la restauración de paquetes NuGet para descargarlos. Para obtener más información, consulte http://go.microsoft.com/fwlink/?LinkID=322105. El archivo que falta es {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('packages\Microsoft.Data.SqlClient.SNI.6.0.2\build\net462\Microsoft.Data.SqlClient.SNI.targets')" Text="$([System.String]::Format('$(ErrorText)', 'packages\Microsoft.Data.SqlClient.SNI.6.0.2\build\net462\Microsoft.Data.SqlClient.SNI.targets'))" />
+  </Target>
+</Project>

@@ -1,0 +1,23 @@
+USE AUTOMASTER
+GO 
+CREATE OR ALTER PROCEDURE SPeliminarDatosPersonales
+(
+   @Id_Persona INT
+)
+AS 
+BEGIN 
+	BEGIN TRY 
+	 BEGIN TRAN 
+	  DELETE Tbl_Datos_Personales WHERE Id_Persona = @Id_Persona
+	 COMMIT 
+		PRINT'SE HA ELIMADO'
+     END TRY 
+	 BEGIN CATCH 
+	 ROLLBACK
+		PRINT'NO SE HA PODIDO ELIMINAR'+  @@ERROR
+	END CATCH 
+END 
+GO 
+SELECT * FROM Tbl_Datos_Personales
+
+EXEC SPeliminarDatosPersonales 1005

@@ -1,0 +1,23 @@
+USE AUTOMASTER
+GO
+CREATE OR ALTER PROCEDURE SPEliminarTaller
+(
+    @Id_Taller INT
+)
+AS
+BEGIN
+    BEGIN TRY
+        BEGIN TRAN
+            DELETE FROM Taller WHERE Id_Taller = @Id_Taller
+        COMMIT
+        PRINT 'REGISTRO ELIMINADO CORRECTAMENTE'
+    END TRY
+    BEGIN CATCH
+        ROLLBACK
+        PRINT 'ERROR AL ELIMINAR ' + ERROR_MESSAGE()
+    END CATCH
+END
+GO
+
+SELECT * FROM Taller
+
