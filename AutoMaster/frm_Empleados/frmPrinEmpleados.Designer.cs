@@ -52,7 +52,7 @@
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Size = new System.Drawing.Size(305, 166);
+            this.pictureBox1.Size = new System.Drawing.Size(315, 166);
             // 
             // btnElimianar
             // 
@@ -83,6 +83,7 @@
             this.btnEditar.TabIndex = 11;
             this.btnEditar.Text = "Editar ";
             this.btnEditar.UseVisualStyleBackColor = false;
+            this.btnEditar.Click += new System.EventHandler(this.btnEditar_Click);
             // 
             // btNuevo
             // 
@@ -98,6 +99,7 @@
             this.btNuevo.TabIndex = 12;
             this.btNuevo.Text = "Nuevo";
             this.btNuevo.UseVisualStyleBackColor = false;
+            this.btNuevo.Click += new System.EventHandler(this.btNuevo_Click);
             // 
             // dataGridViewListarEmpleados
             // 

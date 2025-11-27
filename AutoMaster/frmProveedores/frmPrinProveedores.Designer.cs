@@ -48,17 +48,18 @@
             // 
             // button1
             // 
+            this.button1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button1.Location = new System.Drawing.Point(784, 394);
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Size = new System.Drawing.Size(347, 166);
+            this.pictureBox1.Size = new System.Drawing.Size(370, 166);
             // 
             // btnElimianar
             // 
             this.btnElimianar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.btnElimianar.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.btnElimianar.Cursor = System.Windows.Forms.Cursors.Cross;
+            this.btnElimianar.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnElimianar.Font = new System.Drawing.Font("Impact", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnElimianar.ForeColor = System.Drawing.SystemColors.HotTrack;
             this.btnElimianar.Location = new System.Drawing.Point(249, 394);
@@ -73,7 +74,7 @@
             // 
             this.btnEditar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.btnEditar.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.btnEditar.Cursor = System.Windows.Forms.Cursors.Cross;
+            this.btnEditar.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnEditar.Font = new System.Drawing.Font("Impact", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnEditar.ForeColor = System.Drawing.SystemColors.HotTrack;
             this.btnEditar.Location = new System.Drawing.Point(126, 394);
@@ -89,7 +90,7 @@
             // 
             this.btNuevo.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.btNuevo.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.btNuevo.Cursor = System.Windows.Forms.Cursors.Cross;
+            this.btNuevo.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btNuevo.Font = new System.Drawing.Font("Impact", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btNuevo.ForeColor = System.Drawing.SystemColors.HotTrack;
             this.btNuevo.Location = new System.Drawing.Point(2, 394);

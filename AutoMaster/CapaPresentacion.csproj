@@ -183,6 +183,24 @@
     <Compile Include="fmrContacto\frmPrinContacto.Designer.cs">
       <DependentUpon>frmPrinContacto.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmCliente\frmActualizarCliente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCliente\frmActualizarCliente.Designer.cs">
+      <DependentUpon>frmActualizarCliente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmCliente\FrmInsertaCliente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCliente\FrmInsertaCliente.Designer.cs">
+      <DependentUpon>FrmInsertaCliente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmCliente\frmPrinClientes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCliente\frmPrinClientes.Designer.cs">
+      <DependentUpon>frmPrinClientes.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmContactoProveedor\frmActualizarContactoProveedor.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -350,6 +368,15 @@
     </EmbeddedResource>
     <EmbeddedResource Include="fmrContacto\frmPrinContacto.resx">
       <DependentUpon>frmPrinContacto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCliente\frmActualizarCliente.resx">
+      <DependentUpon>frmActualizarCliente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCliente\FrmInsertaCliente.resx">
+      <DependentUpon>FrmInsertaCliente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCliente\frmPrinClientes.resx">
+      <DependentUpon>frmPrinClientes.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmContactoProveedor\frmActualizarContactoProveedor.resx">
       <DependentUpon>frmActualizarContactoProveedor.cs</DependentUpon>

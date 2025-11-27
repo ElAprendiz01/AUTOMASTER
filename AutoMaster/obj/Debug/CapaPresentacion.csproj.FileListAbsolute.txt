@@ -128,3 +128,9 @@ C:\Users\Dell\Desktop\Programacion con base de datos 4to año\AutoMaster\obj\Deb
 C:\Users\Dell\Desktop\Programacion con base de datos 4to año\AutoMaster\obj\Debug\AutoMaster.frmContactoProveedor.frmActualizarContactoProveedor.resources
 C:\Users\Dell\Desktop\Programacion con base de datos 4to año\AutoMaster\obj\Debug\AutoMaster.frmContactoProveedor.FrmInsertarContactoProveedor.resources
 C:\Users\Dell\Desktop\Programacion con base de datos 4to año\AutoMaster\obj\Debug\AutoMaster.frmContactoProveedor.frmPrinContactoProveedor.resources
+C:\Users\Dell\Desktop\Programacion con base de datos 4to año\AutoMaster\obj\Debug\AutoMaster.frm_Empleados.frmActualizarEmpelados.resources
+C:\Users\Dell\Desktop\Programacion con base de datos 4to año\AutoMaster\obj\Debug\AutoMaster.frm_Empleados.frmInsertarEmpleados.resources
+C:\Users\Dell\Desktop\Programacion con base de datos 4to año\AutoMaster\obj\Debug\AutoMaster.frm_Empleados.frmPrinEmpleados.resources
+C:\Users\Dell\Desktop\Programacion con base de datos 4to año\AutoMaster\obj\Debug\AutoMaster.frmCliente.frmActualizarCliente.resources
+C:\Users\Dell\Desktop\Programacion con base de datos 4to año\AutoMaster\obj\Debug\AutoMaster.frmCliente.FrmInsertaCliente.resources
+C:\Users\Dell\Desktop\Programacion con base de datos 4to año\AutoMaster\obj\Debug\AutoMaster.frmCliente.frmPrinClientes.resources

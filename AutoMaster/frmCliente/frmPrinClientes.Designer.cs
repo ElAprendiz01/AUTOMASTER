@@ -1,6 +1,6 @@
-﻿namespace AutoMaster.frmDirecciones
+﻿namespace AutoMaster.frmCliente
 {
-    partial class frmPrinDirecciones
+    partial class frmPrinClientes
     {
         /// <summary>
         /// Required designer variable.
@@ -31,30 +31,28 @@
             this.btnElimianar = new System.Windows.Forms.Button();
             this.btnEditar = new System.Windows.Forms.Button();
             this.btNuevo = new System.Windows.Forms.Button();
-            this.dataGridViewListarDirecciones = new System.Windows.Forms.DataGridView();
+            this.dataGridViewListarCliente = new System.Windows.Forms.DataGridView();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridViewListarDirecciones)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridViewListarCliente)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
             // 
-            this.panel1.Size = new System.Drawing.Size(903, 81);
+            this.panel1.Size = new System.Drawing.Size(820, 81);
             // 
             // panel2
             // 
-            this.panel2.Location = new System.Drawing.Point(0, 486);
-            this.panel2.Size = new System.Drawing.Size(903, 46);
+            this.panel2.Location = new System.Drawing.Point(0, 485);
+            this.panel2.Size = new System.Drawing.Size(820, 46);
             // 
             // button1
             // 
-            this.button1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button1.Location = new System.Drawing.Point(807, 423);
+            this.button1.Location = new System.Drawing.Point(709, 422);
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Location = new System.Drawing.Point(-37, -39);
-            this.pictureBox1.Size = new System.Drawing.Size(298, 166);
+            this.pictureBox1.Size = new System.Drawing.Size(220, 166);
             // 
             // btnElimianar
             // 
@@ -63,7 +61,7 @@
             this.btnElimianar.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnElimianar.Font = new System.Drawing.Font("Impact", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnElimianar.ForeColor = System.Drawing.SystemColors.HotTrack;
-            this.btnElimianar.Location = new System.Drawing.Point(309, 407);
+            this.btnElimianar.Location = new System.Drawing.Point(273, 409);
             this.btnElimianar.Margin = new System.Windows.Forms.Padding(6, 4, 6, 4);
             this.btnElimianar.Name = "btnElimianar";
             this.btnElimianar.Size = new System.Drawing.Size(96, 55);
@@ -78,7 +76,7 @@
             this.btnEditar.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnEditar.Font = new System.Drawing.Font("Impact", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnEditar.ForeColor = System.Drawing.SystemColors.HotTrack;
-            this.btnEditar.Location = new System.Drawing.Point(176, 407);
+            this.btnEditar.Location = new System.Drawing.Point(150, 409);
             this.btnEditar.Margin = new System.Windows.Forms.Padding(6, 4, 6, 4);
             this.btnEditar.Name = "btnEditar";
             this.btnEditar.Size = new System.Drawing.Size(96, 55);
@@ -94,7 +92,7 @@
             this.btNuevo.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btNuevo.Font = new System.Drawing.Font("Impact", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btNuevo.ForeColor = System.Drawing.SystemColors.HotTrack;
-            this.btNuevo.Location = new System.Drawing.Point(40, 407);
+            this.btNuevo.Location = new System.Drawing.Point(26, 409);
             this.btNuevo.Margin = new System.Windows.Forms.Padding(6, 4, 6, 4);
             this.btNuevo.Name = "btNuevo";
             this.btNuevo.Size = new System.Drawing.Size(96, 55);
@@ -103,38 +101,39 @@
             this.btNuevo.UseVisualStyleBackColor = false;
             this.btNuevo.Click += new System.EventHandler(this.btNuevo_Click);
             // 
-            // dataGridViewListarDirecciones
+            // dataGridViewListarCliente
             // 
-            this.dataGridViewListarDirecciones.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridViewListarDirecciones.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.dataGridViewListarDirecciones.Location = new System.Drawing.Point(12, 99);
-            this.dataGridViewListarDirecciones.Name = "dataGridViewListarDirecciones";
-            this.dataGridViewListarDirecciones.Size = new System.Drawing.Size(879, 271);
-            this.dataGridViewListarDirecciones.TabIndex = 9;
+            this.dataGridViewListarCliente.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridViewListarCliente.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.dataGridViewListarCliente.Location = new System.Drawing.Point(12, 105);
+            this.dataGridViewListarCliente.Name = "dataGridViewListarCliente";
+            this.dataGridViewListarCliente.Size = new System.Drawing.Size(793, 278);
+            this.dataGridViewListarCliente.TabIndex = 9;
+            this.dataGridViewListarCliente.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridViewListarCliente_CellContentClick);
             // 
-            // frmPrinDirecciones
+            // frmPrinClientes
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 19F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(903, 532);
+            this.ClientSize = new System.Drawing.Size(820, 531);
             this.Controls.Add(this.btnElimianar);
             this.Controls.Add(this.btnEditar);
             this.Controls.Add(this.btNuevo);
-            this.Controls.Add(this.dataGridViewListarDirecciones);
+            this.Controls.Add(this.dataGridViewListarCliente);
             this.Margin = new System.Windows.Forms.Padding(10, 6, 10, 6);
-            this.Name = "frmPrinDirecciones";
-            this.Text = "frmPrinDirecciones";
-            this.Load += new System.EventHandler(this.frmPrinDirecciones_Load);
+            this.Name = "frmPrinClientes";
+            this.Text = "frmPrinClientes";
+            this.Load += new System.EventHandler(this.frmPrinClientes_Load);
             this.Controls.SetChildIndex(this.panel1, 0);
             this.Controls.SetChildIndex(this.panel2, 0);
             this.Controls.SetChildIndex(this.button1, 0);
-            this.Controls.SetChildIndex(this.dataGridViewListarDirecciones, 0);
+            this.Controls.SetChildIndex(this.dataGridViewListarCliente, 0);
             this.Controls.SetChildIndex(this.btNuevo, 0);
             this.Controls.SetChildIndex(this.btnEditar, 0);
             this.Controls.SetChildIndex(this.btnElimianar, 0);
             this.panel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridViewListarDirecciones)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridViewListarCliente)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -144,6 +143,6 @@
         public System.Windows.Forms.Button btnElimianar;
         public System.Windows.Forms.Button btnEditar;
         public System.Windows.Forms.Button btNuevo;
-        public System.Windows.Forms.DataGridView dataGridViewListarDirecciones;
+        public System.Windows.Forms.DataGridView dataGridViewListarCliente;
     }
 }

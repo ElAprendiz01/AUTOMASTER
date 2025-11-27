@@ -1,6 +1,6 @@
-﻿namespace AutoMaster.frm_Empleados
+﻿namespace AutoMaster.frmCliente
 {
-    partial class frmInsertarEmpleados
+    partial class frmActualizarCliente
     {
         /// <summary>
         /// Required designer variable.
@@ -32,144 +32,110 @@
             this.checkBoxactivoEmpleado = new System.Windows.Forms.CheckBox();
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
-            this.Lbl_IdTipoCatalogo = new System.Windows.Forms.Label();
-            this.TxbIDArea = new System.Windows.Forms.TextBox();
-            this.txbIDCargo = new System.Windows.Forms.TextBox();
             this.txbIdPersona = new System.Windows.Forms.TextBox();
+            this.txbIDEmpleado = new System.Windows.Forms.TextBox();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
             // 
-            this.panel1.Size = new System.Drawing.Size(876, 81);
+            this.panel1.Size = new System.Drawing.Size(865, 81);
             // 
             // panel2
             // 
-            this.panel2.Location = new System.Drawing.Point(0, 491);
-            this.panel2.Size = new System.Drawing.Size(876, 46);
+            this.panel2.Location = new System.Drawing.Point(0, 493);
+            this.panel2.Size = new System.Drawing.Size(865, 46);
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(765, 428);
+            this.button1.Location = new System.Drawing.Point(754, 430);
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Size = new System.Drawing.Size(332, 166);
+            this.pictureBox1.Size = new System.Drawing.Size(317, 166);
             // 
             // btnGuardar
             // 
             this.btnGuardar.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.btnGuardar.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.btnGuardar.Cursor = System.Windows.Forms.Cursors.Cross;
+            this.btnGuardar.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnGuardar.Font = new System.Drawing.Font("Impact", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnGuardar.ForeColor = System.Drawing.SystemColors.HotTrack;
-            this.btnGuardar.Location = new System.Drawing.Point(56, 376);
+            this.btnGuardar.Location = new System.Drawing.Point(33, 417);
             this.btnGuardar.Margin = new System.Windows.Forms.Padding(6, 4, 6, 4);
             this.btnGuardar.Name = "btnGuardar";
             this.btnGuardar.Size = new System.Drawing.Size(96, 55);
-            this.btnGuardar.TabIndex = 86;
-            this.btnGuardar.Text = "Guardar";
+            this.btnGuardar.TabIndex = 62;
+            this.btnGuardar.Text = "Actualizar ";
             this.btnGuardar.UseVisualStyleBackColor = false;
             this.btnGuardar.Click += new System.EventHandler(this.btnGuardar_Click);
             // 
             // checkBoxactivoEmpleado
             // 
             this.checkBoxactivoEmpleado.AutoSize = true;
-            this.checkBoxactivoEmpleado.Location = new System.Drawing.Point(234, 285);
+            this.checkBoxactivoEmpleado.Location = new System.Drawing.Point(265, 206);
             this.checkBoxactivoEmpleado.Name = "checkBoxactivoEmpleado";
             this.checkBoxactivoEmpleado.Size = new System.Drawing.Size(15, 14);
-            this.checkBoxactivoEmpleado.TabIndex = 85;
+            this.checkBoxactivoEmpleado.TabIndex = 61;
             this.checkBoxactivoEmpleado.UseVisualStyleBackColor = true;
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(12, 280);
+            this.label3.Location = new System.Drawing.Point(29, 203);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(74, 19);
-            this.label3.TabIndex = 87;
-            this.label3.Text = "Principal";
+            this.label3.Size = new System.Drawing.Size(61, 19);
+            this.label3.TabIndex = 63;
+            this.label3.Text = "Activo ";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(12, 227);
+            this.label2.Location = new System.Drawing.Point(15, 135);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(65, 19);
-            this.label2.TabIndex = 88;
-            this.label2.Text = "ID Area";
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(12, 171);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(75, 19);
-            this.label1.TabIndex = 90;
-            this.label1.Text = "ID Cargo";
-            // 
-            // Lbl_IdTipoCatalogo
-            // 
-            this.Lbl_IdTipoCatalogo.AutoSize = true;
-            this.Lbl_IdTipoCatalogo.Location = new System.Drawing.Point(12, 113);
-            this.Lbl_IdTipoCatalogo.Name = "Lbl_IdTipoCatalogo";
-            this.Lbl_IdTipoCatalogo.Size = new System.Drawing.Size(91, 19);
-            this.Lbl_IdTipoCatalogo.TabIndex = 91;
-            this.Lbl_IdTipoCatalogo.Text = "ID Persona";
-            // 
-            // TxbIDArea
-            // 
-            this.TxbIDArea.BackColor = System.Drawing.SystemColors.Info;
-            this.TxbIDArea.Location = new System.Drawing.Point(181, 224);
-            this.TxbIDArea.Name = "TxbIDArea";
-            this.TxbIDArea.Size = new System.Drawing.Size(139, 27);
-            this.TxbIDArea.TabIndex = 83;
-            // 
-            // txbIDCargo
-            // 
-            this.txbIDCargo.BackColor = System.Drawing.SystemColors.Info;
-            this.txbIDCargo.Location = new System.Drawing.Point(181, 168);
-            this.txbIDCargo.Name = "txbIDCargo";
-            this.txbIDCargo.Size = new System.Drawing.Size(139, 27);
-            this.txbIDCargo.TabIndex = 81;
+            this.label2.Size = new System.Drawing.Size(91, 19);
+            this.label2.TabIndex = 64;
+            this.label2.Text = "ID Persona";
             // 
             // txbIdPersona
             // 
             this.txbIdPersona.BackColor = System.Drawing.SystemColors.Info;
-            this.txbIdPersona.Location = new System.Drawing.Point(181, 105);
+            this.txbIdPersona.Location = new System.Drawing.Point(191, 121);
             this.txbIdPersona.Name = "txbIdPersona";
             this.txbIdPersona.Size = new System.Drawing.Size(139, 27);
-            this.txbIdPersona.TabIndex = 82;
+            this.txbIdPersona.TabIndex = 58;
             // 
-            // frmInsertarEmpleados
+            // txbIDEmpleado
+            // 
+            this.txbIDEmpleado.BackColor = System.Drawing.SystemColors.Info;
+            this.txbIDEmpleado.Location = new System.Drawing.Point(191, 271);
+            this.txbIDEmpleado.Name = "txbIDEmpleado";
+            this.txbIDEmpleado.Size = new System.Drawing.Size(139, 27);
+            this.txbIDEmpleado.TabIndex = 58;
+            this.txbIDEmpleado.Visible = false;
+            // 
+            // frmActualizarCliente
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 19F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(876, 537);
+            this.ClientSize = new System.Drawing.Size(865, 539);
             this.Controls.Add(this.btnGuardar);
             this.Controls.Add(this.checkBoxactivoEmpleado);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.label1);
-            this.Controls.Add(this.Lbl_IdTipoCatalogo);
-            this.Controls.Add(this.TxbIDArea);
-            this.Controls.Add(this.txbIDCargo);
+            this.Controls.Add(this.txbIDEmpleado);
             this.Controls.Add(this.txbIdPersona);
             this.Margin = new System.Windows.Forms.Padding(10, 6, 10, 6);
-            this.Name = "frmInsertarEmpleados";
-            this.Text = "frmInsertarEmpleados";
-            this.Load += new System.EventHandler(this.frmInsertarEmpleados_Load);
+            this.Name = "frmActualizarCliente";
+            this.Text = "frmActualizarCliente";
+            this.Load += new System.EventHandler(this.frmActualizarCliente_Load);
             this.Controls.SetChildIndex(this.panel1, 0);
             this.Controls.SetChildIndex(this.panel2, 0);
             this.Controls.SetChildIndex(this.button1, 0);
             this.Controls.SetChildIndex(this.txbIdPersona, 0);
-            this.Controls.SetChildIndex(this.txbIDCargo, 0);
-            this.Controls.SetChildIndex(this.TxbIDArea, 0);
-            this.Controls.SetChildIndex(this.Lbl_IdTipoCatalogo, 0);
-            this.Controls.SetChildIndex(this.label1, 0);
+            this.Controls.SetChildIndex(this.txbIDEmpleado, 0);
             this.Controls.SetChildIndex(this.label2, 0);
             this.Controls.SetChildIndex(this.label3, 0);
             this.Controls.SetChildIndex(this.checkBoxactivoEmpleado, 0);
@@ -187,10 +153,7 @@
         public System.Windows.Forms.CheckBox checkBoxactivoEmpleado;
         private System.Windows.Forms.Label label3;
         public System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label Lbl_IdTipoCatalogo;
-        public System.Windows.Forms.TextBox TxbIDArea;
-        public System.Windows.Forms.TextBox txbIDCargo;
         public System.Windows.Forms.TextBox txbIdPersona;
+        public System.Windows.Forms.TextBox txbIDEmpleado;
     }
 }
