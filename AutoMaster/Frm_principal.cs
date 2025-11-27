@@ -1,5 +1,6 @@
 ﻿using AutoMaster.fmrContacto;
 using AutoMaster.frm_Empleados;
+using AutoMaster.frm_Vehiculos;
 using AutoMaster.frmCliente;
 using AutoMaster.frmContactoProveedor;
 using AutoMaster.frmDirecciones;
@@ -109,6 +110,12 @@ namespace AutoMaster
         {
             frmPrinClientes clientes = new frmPrinClientes();
             clientes.ShowDialog();
+        }
+
+        private void vehiculosToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmPrinVehiculos _frmVehiculo = new frmPrinVehiculos();
+            _frmVehiculo.ShowDialog();
         }
     }
 }

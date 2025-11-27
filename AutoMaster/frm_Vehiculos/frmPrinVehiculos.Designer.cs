@@ -52,7 +52,7 @@
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Size = new System.Drawing.Size(317, 166);
+            this.pictureBox1.Size = new System.Drawing.Size(310, 166);
             // 
             // btnElimianar
             // 
@@ -61,7 +61,7 @@
             this.btnElimianar.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnElimianar.Font = new System.Drawing.Font("Impact", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnElimianar.ForeColor = System.Drawing.SystemColors.HotTrack;
-            this.btnElimianar.Location = new System.Drawing.Point(242, 406);
+            this.btnElimianar.Location = new System.Drawing.Point(268, 406);
             this.btnElimianar.Margin = new System.Windows.Forms.Padding(6, 4, 6, 4);
             this.btnElimianar.Name = "btnElimianar";
             this.btnElimianar.Size = new System.Drawing.Size(96, 55);
@@ -76,13 +76,14 @@
             this.btnEditar.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnEditar.Font = new System.Drawing.Font("Impact", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnEditar.ForeColor = System.Drawing.SystemColors.HotTrack;
-            this.btnEditar.Location = new System.Drawing.Point(119, 406);
+            this.btnEditar.Location = new System.Drawing.Point(145, 406);
             this.btnEditar.Margin = new System.Windows.Forms.Padding(6, 4, 6, 4);
             this.btnEditar.Name = "btnEditar";
             this.btnEditar.Size = new System.Drawing.Size(96, 55);
             this.btnEditar.TabIndex = 11;
             this.btnEditar.Text = "Editar ";
             this.btnEditar.UseVisualStyleBackColor = false;
+            this.btnEditar.Click += new System.EventHandler(this.btnEditar_Click);
             // 
             // btNuevo
             // 
@@ -91,13 +92,14 @@
             this.btNuevo.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btNuevo.Font = new System.Drawing.Font("Impact", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btNuevo.ForeColor = System.Drawing.SystemColors.HotTrack;
-            this.btNuevo.Location = new System.Drawing.Point(-5, 406);
+            this.btNuevo.Location = new System.Drawing.Point(21, 406);
             this.btNuevo.Margin = new System.Windows.Forms.Padding(6, 4, 6, 4);
             this.btNuevo.Name = "btNuevo";
             this.btNuevo.Size = new System.Drawing.Size(96, 55);
             this.btNuevo.TabIndex = 12;
             this.btNuevo.Text = "Nuevo";
             this.btNuevo.UseVisualStyleBackColor = false;
+            this.btNuevo.Click += new System.EventHandler(this.btNuevo_Click);
             // 
             // dataGridViewListarVehiculos
             // 
@@ -107,6 +109,7 @@
             this.dataGridViewListarVehiculos.Name = "dataGridViewListarVehiculos";
             this.dataGridViewListarVehiculos.Size = new System.Drawing.Size(830, 288);
             this.dataGridViewListarVehiculos.TabIndex = 9;
+            this.dataGridViewListarVehiculos.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridViewListarVehiculos_CellContentClick);
             // 
             // frmPrinVehiculos
             // 
