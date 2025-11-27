@@ -352,6 +352,24 @@
     <Compile Include="Frm_principal.Designer.cs">
       <DependentUpon>Frm_principal.cs</DependentUpon>
     </Compile>
+    <Compile Include="frm_Vehiculos\frmActualizarVehiculo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_Vehiculos\frmActualizarVehiculo.Designer.cs">
+      <DependentUpon>frmActualizarVehiculo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_Vehiculos\frmPrinVehiculos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_Vehiculos\frmPrinVehiculos.Designer.cs">
+      <DependentUpon>frmPrinVehiculos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_Vehiculos\frnInsertarVehiculos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_Vehiculos\frnInsertarVehiculos.Designer.cs">
+      <DependentUpon>frnInsertarVehiculos.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Frm_Prin_DatosPersonales.cs">
@@ -452,6 +470,15 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Frm_principal.resx">
       <DependentUpon>Frm_principal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_Vehiculos\frmActualizarVehiculo.resx">
+      <DependentUpon>frmActualizarVehiculo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_Vehiculos\frmPrinVehiculos.resx">
+      <DependentUpon>frmPrinVehiculos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_Vehiculos\frnInsertarVehiculos.resx">
+      <DependentUpon>frnInsertarVehiculos.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

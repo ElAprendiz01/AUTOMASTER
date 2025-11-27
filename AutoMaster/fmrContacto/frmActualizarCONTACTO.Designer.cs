@@ -56,12 +56,12 @@
             // 
             // button1
             // 
-            this.button1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button1.Location = new System.Drawing.Point(874, 382);
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Size = new System.Drawing.Size(504, 154);
+            this.pictureBox1.Location = new System.Drawing.Point(-20, -38);
+            this.pictureBox1.Size = new System.Drawing.Size(254, 154);
             // 
             // btnGuardar
             // 

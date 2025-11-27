@@ -166,6 +166,7 @@
     <Compile Include="CDEsatado.cs" />
     <Compile Include="CDtipoDeCatalogo.cs" />
     <Compile Include="CD_CATALOGO.cs" />
+    <Compile Include="CD_Clientes.cs" />
     <Compile Include="CD_CONEXION.cs" />
     <Compile Include="CD_Contacto.cs" />
     <Compile Include="CD_ContactoProveedor.cs" />
