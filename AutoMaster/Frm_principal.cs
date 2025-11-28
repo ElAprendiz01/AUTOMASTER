@@ -21,6 +21,8 @@ namespace AutoMaster
     {
         public Frm_principal()
         {
+            var FrmUsuarioSesion = new Frm_InicioSesion();
+            FrmUsuarioSesion.ShowDialog();
             InitializeComponent();
         }
 
@@ -116,6 +118,11 @@ namespace AutoMaster
         {
             frmPrinVehiculos _frmVehiculo = new frmPrinVehiculos();
             _frmVehiculo.ShowDialog();
+        }
+
+        private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+
         }
     }
 }

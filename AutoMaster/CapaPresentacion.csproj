@@ -316,6 +316,12 @@
     <Compile Include="frm_Empleados\frmPrinEmpleados.Designer.cs">
       <DependentUpon>frmPrinEmpleados.cs</DependentUpon>
     </Compile>
+    <Compile Include="Frm_InicioSesion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_InicioSesion.Designer.cs">
+      <DependentUpon>Frm_InicioSesion.cs</DependentUpon>
+    </Compile>
     <Compile Include="Frm_insertar_DatosPersonales.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -470,6 +476,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="frm_Empleados\frmPrinEmpleados.resx">
       <DependentUpon>frmPrinEmpleados.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_InicioSesion.resx">
+      <DependentUpon>Frm_InicioSesion.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Frm_insertar_DatosPersonales.resx">
       <DependentUpon>Frm_insertar_DatosPersonales.cs</DependentUpon>
