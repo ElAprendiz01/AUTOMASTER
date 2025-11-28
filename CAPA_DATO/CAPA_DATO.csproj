@@ -173,6 +173,7 @@
     <Compile Include="CD_Direcciones.cs" />
     <Compile Include="CD_Empleados.cs" />
     <Compile Include="CD_Proveedores.cs" />
+    <Compile Include="CD_Vehiculos.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
