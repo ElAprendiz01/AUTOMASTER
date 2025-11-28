@@ -137,3 +137,6 @@ C:\Users\Dell\Desktop\Programacion con base de datos 4to año\AutoMaster\obj\Deb
 C:\Users\Dell\Desktop\Programacion con base de datos 4to año\AutoMaster\obj\Debug\AutoMaster.frm_Vehiculos.frmActualizarVehiculo.resources
 C:\Users\Dell\Desktop\Programacion con base de datos 4to año\AutoMaster\obj\Debug\AutoMaster.frm_Vehiculos.frmPrinVehiculos.resources
 C:\Users\Dell\Desktop\Programacion con base de datos 4to año\AutoMaster\obj\Debug\AutoMaster.frm_Vehiculos.frnInsertarVehiculos.resources
+C:\Users\Dell\Desktop\Programacion con base de datos 4to año\AutoMaster\obj\Debug\AutoMaster.FrmVentas.frmAtualizarVenta.resources
+C:\Users\Dell\Desktop\Programacion con base de datos 4to año\AutoMaster\obj\Debug\AutoMaster.FrmVentas.frmInsertarVentas.resources
+C:\Users\Dell\Desktop\Programacion con base de datos 4to año\AutoMaster\obj\Debug\AutoMaster.FrmVentas.frmPrinVentas.resources

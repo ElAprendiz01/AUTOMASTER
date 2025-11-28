@@ -49,11 +49,10 @@
             // button1
             // 
             this.button1.Location = new System.Drawing.Point(775, 434);
-            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Size = new System.Drawing.Size(338, 166);
+            this.pictureBox1.Size = new System.Drawing.Size(366, 166);
             // 
             // btnElimianar
             // 
@@ -69,6 +68,7 @@
             this.btnElimianar.TabIndex = 14;
             this.btnElimianar.Text = "Eliminar";
             this.btnElimianar.UseVisualStyleBackColor = false;
+            this.btnElimianar.Click += new System.EventHandler(this.btnElimianar_Click);
             // 
             // btnEditar
             // 
@@ -84,6 +84,7 @@
             this.btnEditar.TabIndex = 15;
             this.btnEditar.Text = "Editar ";
             this.btnEditar.UseVisualStyleBackColor = false;
+            this.btnEditar.Click += new System.EventHandler(this.btnEditar_Click);
             // 
             // btNuevo
             // 
@@ -99,6 +100,7 @@
             this.btNuevo.TabIndex = 16;
             this.btNuevo.Text = "Nuevo";
             this.btNuevo.UseVisualStyleBackColor = false;
+            this.btNuevo.Click += new System.EventHandler(this.btNuevo_Click);
             // 
             // dataGridViewListarVVentas
             // 

@@ -3,36 +3,64 @@
   "WorkspaceRootPath": "C:\\Users\\Dell\\Desktop\\Programacion con base de datos 4to a\u00F1o\\AutoMaster\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{C6D210FA-9B97-46E8-98A1-D142C7B5FC16}|CapaPresentacion.csproj|C:\\Users\\Dell\\Desktop\\Programacion con base de datos 4to a\u00F1o\\AutoMaster\\frmventas\\frmprinventas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C6D210FA-9B97-46E8-98A1-D142C7B5FC16}|CapaPresentacion.csproj|solutionrelative:frmventas\\frmprinventas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6D210FA-9B97-46E8-98A1-D142C7B5FC16}|CapaPresentacion.csproj|C:\\Users\\Dell\\Desktop\\Programacion con base de datos 4to a\u00F1o\\AutoMaster\\frmventas\\frmprinventas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C6D210FA-9B97-46E8-98A1-D142C7B5FC16}|CapaPresentacion.csproj|solutionrelative:frmventas\\frmprinventas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6D210FA-9B97-46E8-98A1-D142C7B5FC16}|CapaPresentacion.csproj|C:\\Users\\Dell\\Desktop\\Programacion con base de datos 4to a\u00F1o\\AutoMaster\\frm_principal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C6D210FA-9B97-46E8-98A1-D142C7B5FC16}|CapaPresentacion.csproj|solutionrelative:frm_principal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6D210FA-9B97-46E8-98A1-D142C7B5FC16}|CapaPresentacion.csproj|C:\\Users\\Dell\\Desktop\\Programacion con base de datos 4to a\u00F1o\\AutoMaster\\frm_principal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C6D210FA-9B97-46E8-98A1-D142C7B5FC16}|CapaPresentacion.csproj|solutionrelative:frm_principal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6D210FA-9B97-46E8-98A1-D142C7B5FC16}|CapaPresentacion.csproj|C:\\Users\\Dell\\Desktop\\Programacion con base de datos 4to a\u00F1o\\AutoMaster\\frmventas\\frminsertarventas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C6D210FA-9B97-46E8-98A1-D142C7B5FC16}|CapaPresentacion.csproj|solutionrelative:frmventas\\frminsertarventas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6D210FA-9B97-46E8-98A1-D142C7B5FC16}|CapaPresentacion.csproj|C:\\Users\\Dell\\Desktop\\Programacion con base de datos 4to a\u00F1o\\AutoMaster\\frmventas\\frminsertarventas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C6D210FA-9B97-46E8-98A1-D142C7B5FC16}|CapaPresentacion.csproj|solutionrelative:frmventas\\frminsertarventas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6D210FA-9B97-46E8-98A1-D142C7B5FC16}|CapaPresentacion.csproj|C:\\Users\\Dell\\Desktop\\Programacion con base de datos 4to a\u00F1o\\AutoMaster\\frmventas\\frmatualizarventa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C6D210FA-9B97-46E8-98A1-D142C7B5FC16}|CapaPresentacion.csproj|solutionrelative:frmventas\\frmatualizarventa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{C6D210FA-9B97-46E8-98A1-D142C7B5FC16}|CapaPresentacion.csproj|c:\\users\\dell\\desktop\\programacion con base de datos 4to a\u00F1o\\automaster\\frmventas\\frmatualizarventa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{C6D210FA-9B97-46E8-98A1-D142C7B5FC16}|CapaPresentacion.csproj|solutionrelative:frmventas\\frmatualizarventa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C6D210FA-9B97-46E8-98A1-D142C7B5FC16}|CapaPresentacion.csproj|c:\\users\\dell\\desktop\\programacion con base de datos 4to a\u00F1o\\automaster\\frmventas\\frmprinventas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{C6D210FA-9B97-46E8-98A1-D142C7B5FC16}|CapaPresentacion.csproj|solutionrelative:frmventas\\frmprinventas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{C6D210FA-9B97-46E8-98A1-D142C7B5FC16}|CapaPresentacion.csproj|C:\\Users\\Dell\\Desktop\\Programacion con base de datos 4to a\u00F1o\\AutoMaster\\frm_vehiculos\\frninsertarvehiculos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C6D210FA-9B97-46E8-98A1-D142C7B5FC16}|CapaPresentacion.csproj|solutionrelative:frm_vehiculos\\frninsertarvehiculos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6D210FA-9B97-46E8-98A1-D142C7B5FC16}|CapaPresentacion.csproj|C:\\Users\\Dell\\Desktop\\Programacion con base de datos 4to a\u00F1o\\AutoMaster\\frm_vehiculos\\frninsertarvehiculos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C6D210FA-9B97-46E8-98A1-D142C7B5FC16}|CapaPresentacion.csproj|solutionrelative:frm_vehiculos\\frninsertarvehiculos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6D210FA-9B97-46E8-98A1-D142C7B5FC16}|CapaPresentacion.csproj|C:\\Users\\Dell\\Desktop\\Programacion con base de datos 4to a\u00F1o\\AutoMaster\\frm_vehiculos\\frmactualizarvehiculo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C6D210FA-9B97-46E8-98A1-D142C7B5FC16}|CapaPresentacion.csproj|solutionrelative:frm_vehiculos\\frmactualizarvehiculo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C6D210FA-9B97-46E8-98A1-D142C7B5FC16}|CapaPresentacion.csproj|C:\\Users\\Dell\\Desktop\\Programacion con base de datos 4to a\u00F1o\\AutoMaster\\frm_vehiculos\\frmactualizarvehiculo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{C6D210FA-9B97-46E8-98A1-D142C7B5FC16}|CapaPresentacion.csproj|solutionrelative:frm_vehiculos\\frmactualizarvehiculo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C6D210FA-9B97-46E8-98A1-D142C7B5FC16}|CapaPresentacion.csproj|c:\\users\\dell\\desktop\\programacion con base de datos 4to a\u00F1o\\automaster\\frmventas\\frmprinventas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C6D210FA-9B97-46E8-98A1-D142C7B5FC16}|CapaPresentacion.csproj|solutionrelative:frmventas\\frmprinventas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C6D210FA-9B97-46E8-98A1-D142C7B5FC16}|CapaPresentacion.csproj|C:\\Users\\Dell\\Desktop\\Programacion con base de datos 4to a\u00F1o\\AutoMaster\\frm_vehiculos\\frmprinvehiculos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C6D210FA-9B97-46E8-98A1-D142C7B5FC16}|CapaPresentacion.csproj|solutionrelative:frm_vehiculos\\frmprinvehiculos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6D210FA-9B97-46E8-98A1-D142C7B5FC16}|CapaPresentacion.csproj|c:\\users\\dell\\desktop\\programacion con base de datos 4to a\u00F1o\\automaster\\frmventas\\frmatualizarventa.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C6D210FA-9B97-46E8-98A1-D142C7B5FC16}|CapaPresentacion.csproj|solutionrelative:frmventas\\frmatualizarventa.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C6D210FA-9B97-46E8-98A1-D142C7B5FC16}|CapaPresentacion.csproj|C:\\Users\\Dell\\Desktop\\Programacion con base de datos 4to a\u00F1o\\AutoMaster\\frm_vehiculos\\frmprinvehiculos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{C6D210FA-9B97-46E8-98A1-D142C7B5FC16}|CapaPresentacion.csproj|solutionrelative:frm_vehiculos\\frmprinvehiculos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C6D210FA-9B97-46E8-98A1-D142C7B5FC16}|CapaPresentacion.csproj|c:\\users\\dell\\desktop\\programacion con base de datos 4to a\u00F1o\\automaster\\frmventas\\frminsertarventas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{C6D210FA-9B97-46E8-98A1-D142C7B5FC16}|CapaPresentacion.csproj|solutionrelative:frmventas\\frminsertarventas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C6D210FA-9B97-46E8-98A1-D142C7B5FC16}|CapaPresentacion.csproj|c:\\users\\dell\\desktop\\programacion con base de datos 4to a\u00F1o\\automaster\\frmventas\\frminsertarventas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C6D210FA-9B97-46E8-98A1-D142C7B5FC16}|CapaPresentacion.csproj|solutionrelative:frmventas\\frminsertarventas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C6D210FA-9B97-46E8-98A1-D142C7B5FC16}|CapaPresentacion.csproj|c:\\users\\dell\\desktop\\programacion con base de datos 4to a\u00F1o\\automaster\\frmventas\\frmatualizarventa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C6D210FA-9B97-46E8-98A1-D142C7B5FC16}|CapaPresentacion.csproj|solutionrelative:frmventas\\frmatualizarventa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E4EC1C16-1AD7-48E4-9AD6-EE5A3CD59723}|..\\CAPA_NEGOCIO\\CAPA_NEGOCIO.csproj|c:\\users\\dell\\desktop\\programacion con base de datos 4to a\u00F1o\\capa_negocio\\cn_ventas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
@@ -51,30 +79,6 @@
     },
     {
       "AbsoluteMoniker": "D:0:0:{36AE27CB-3A2A-4285-B8BC-89BADBF54FBD}|..\\CAPA_ENTIDAD\\CAPA_ENTIDAD.csproj|c:\\users\\dell\\desktop\\programacion con base de datos 4to a\u00F1o\\capa_entidad\\ce_direcciones.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C6D210FA-9B97-46E8-98A1-D142C7B5FC16}|CapaPresentacion.csproj|C:\\Users\\Dell\\Desktop\\Programacion con base de datos 4to a\u00F1o\\AutoMaster\\frm_vehiculos\\frmprinvehiculos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C6D210FA-9B97-46E8-98A1-D142C7B5FC16}|CapaPresentacion.csproj|solutionrelative:frm_vehiculos\\frmprinvehiculos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C6D210FA-9B97-46E8-98A1-D142C7B5FC16}|CapaPresentacion.csproj|C:\\Users\\Dell\\Desktop\\Programacion con base de datos 4to a\u00F1o\\AutoMaster\\frm_vehiculos\\frmactualizarvehiculo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C6D210FA-9B97-46E8-98A1-D142C7B5FC16}|CapaPresentacion.csproj|solutionrelative:frm_vehiculos\\frmactualizarvehiculo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C6D210FA-9B97-46E8-98A1-D142C7B5FC16}|CapaPresentacion.csproj|C:\\Users\\Dell\\Desktop\\Programacion con base de datos 4to a\u00F1o\\AutoMaster\\frm_vehiculos\\frninsertarvehiculos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C6D210FA-9B97-46E8-98A1-D142C7B5FC16}|CapaPresentacion.csproj|solutionrelative:frm_vehiculos\\frninsertarvehiculos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C6D210FA-9B97-46E8-98A1-D142C7B5FC16}|CapaPresentacion.csproj|C:\\Users\\Dell\\Desktop\\Programacion con base de datos 4to a\u00F1o\\AutoMaster\\frm_vehiculos\\frninsertarvehiculos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{C6D210FA-9B97-46E8-98A1-D142C7B5FC16}|CapaPresentacion.csproj|solutionrelative:frm_vehiculos\\frninsertarvehiculos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C6D210FA-9B97-46E8-98A1-D142C7B5FC16}|CapaPresentacion.csproj|C:\\Users\\Dell\\Desktop\\Programacion con base de datos 4to a\u00F1o\\AutoMaster\\frm_principal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C6D210FA-9B97-46E8-98A1-D142C7B5FC16}|CapaPresentacion.csproj|solutionrelative:frm_principal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C6D210FA-9B97-46E8-98A1-D142C7B5FC16}|CapaPresentacion.csproj|C:\\Users\\Dell\\Desktop\\Programacion con base de datos 4to a\u00F1o\\AutoMaster\\frm_principal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{C6D210FA-9B97-46E8-98A1-D142C7B5FC16}|CapaPresentacion.csproj|solutionrelative:frm_principal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C6D210FA-9B97-46E8-98A1-D142C7B5FC16}|CapaPresentacion.csproj|C:\\Users\\Dell\\Desktop\\Programacion con base de datos 4to a\u00F1o\\AutoMaster\\fmrcontacto\\frmactualizarcontacto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
@@ -120,7 +124,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -132,20 +136,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 13,
+              "Title": "frmAtualizarVenta.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\Programacion con base de datos 4to a\u00F1o\\AutoMaster\\FrmVentas\\frmAtualizarVenta.Designer.cs",
+              "RelativeDocumentMoniker": "FrmVentas\\frmAtualizarVenta.Designer.cs",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\Programacion con base de datos 4to a\u00F1o\\AutoMaster\\FrmVentas\\frmAtualizarVenta.Designer.cs",
+              "RelativeToolTip": "FrmVentas\\frmAtualizarVenta.Designer.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAUwCwAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-28T13:23:50.231Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "frmAtualizarVenta.cs",
               "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\Programacion con base de datos 4to a\u00F1o\\AutoMaster\\FrmVentas\\frmAtualizarVenta.cs",
               "RelativeDocumentMoniker": "FrmVentas\\frmAtualizarVenta.cs",
               "ToolTip": "C:\\Users\\Dell\\Desktop\\Programacion con base de datos 4to a\u00F1o\\AutoMaster\\FrmVentas\\frmAtualizarVenta.cs",
               "RelativeToolTip": "FrmVentas\\frmAtualizarVenta.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAAD4vwwAAAA1AAAAAAAAAA==",
+              "ViewState": "AgIAADMAAAAAAAAAAAArwEQAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-28T04:17:13.735Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 7,
               "Title": "frmAtualizarVenta.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\Programacion con base de datos 4to a\u00F1o\\AutoMaster\\FrmVentas\\frmAtualizarVenta.cs",
               "RelativeDocumentMoniker": "FrmVentas\\frmAtualizarVenta.cs",
@@ -157,13 +174,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 4,
               "Title": "frmInsertarVentas.cs",
               "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\Programacion con base de datos 4to a\u00F1o\\AutoMaster\\FrmVentas\\frmInsertarVentas.cs",
               "RelativeDocumentMoniker": "FrmVentas\\frmInsertarVentas.cs",
               "ToolTip": "C:\\Users\\Dell\\Desktop\\Programacion con base de datos 4to a\u00F1o\\AutoMaster\\FrmVentas\\frmInsertarVentas.cs",
               "RelativeToolTip": "FrmVentas\\frmInsertarVentas.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAuwBUAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABsAAAAAAAAAAAAswB8AAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-28T04:16:38.452Z",
               "EditorCaption": ""
@@ -182,13 +199,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "frmPrinVentas.cs",
               "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\Programacion con base de datos 4to a\u00F1o\\AutoMaster\\FrmVentas\\frmPrinVentas.cs",
               "RelativeDocumentMoniker": "FrmVentas\\frmPrinVentas.cs",
               "ToolTip": "C:\\Users\\Dell\\Desktop\\Programacion con base de datos 4to a\u00F1o\\AutoMaster\\FrmVentas\\frmPrinVentas.cs",
               "RelativeToolTip": "FrmVentas\\frmPrinVentas.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAEsAAAAAAAAAAAAiwGoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-28T04:15:42.494Z",
               "EditorCaption": ""
@@ -207,7 +224,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 17,
               "Title": "CD_Ventas.cs",
               "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\Programacion con base de datos 4to a\u00F1o\\CAPA_DATO\\CD_Ventas.cs",
               "RelativeDocumentMoniker": "..\\CAPA_DATO\\CD_Ventas.cs",
@@ -215,12 +232,11 @@
               "RelativeToolTip": "..\\CAPA_DATO\\CD_Ventas.cs",
               "ViewState": "AgIAAFsAAAAAAAAAAAAwwIYAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-28T04:11:09.042Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-28T04:11:09.042Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 15,
               "Title": "CN_Ventas.cs",
               "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\Programacion con base de datos 4to a\u00F1o\\CAPA_NEGOCIO\\CN_Ventas.cs",
               "RelativeDocumentMoniker": "..\\CAPA_NEGOCIO\\CN_Ventas.cs",
@@ -228,12 +244,11 @@
               "RelativeToolTip": "..\\CAPA_NEGOCIO\\CN_Ventas.cs",
               "ViewState": "AgIAAAsAAAAAAAAAAAAQwCAAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-28T04:09:33.921Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-28T04:09:33.921Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 20,
               "Title": "CE_Direcciones.cs",
               "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\Programacion con base de datos 4to a\u00F1o\\CAPA_ENTIDAD\\CE_Direcciones.cs",
               "RelativeDocumentMoniker": "..\\CAPA_ENTIDAD\\CE_Direcciones.cs",
@@ -241,12 +256,11 @@
               "RelativeToolTip": "..\\CAPA_ENTIDAD\\CE_Direcciones.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-28T04:08:44.224Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-28T04:08:44.224Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 19,
               "Title": "CE_Ventas.cs",
               "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\Programacion con base de datos 4to a\u00F1o\\CAPA_ENTIDAD\\CE_Ventas.cs",
               "RelativeDocumentMoniker": "..\\CAPA_ENTIDAD\\CE_Ventas.cs",
@@ -254,35 +268,36 @@
               "RelativeToolTip": "..\\CAPA_ENTIDAD\\CE_Ventas.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAA0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-28T04:08:22.838Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-28T04:08:22.838Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 2,
               "Title": "Frm_principal.cs",
               "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\Programacion con base de datos 4to a\u00F1o\\AutoMaster\\Frm_principal.cs",
               "RelativeDocumentMoniker": "Frm_principal.cs",
               "ToolTip": "C:\\Users\\Dell\\Desktop\\Programacion con base de datos 4to a\u00F1o\\AutoMaster\\Frm_principal.cs",
               "RelativeToolTip": "Frm_principal.cs",
-              "ViewState": "AgIAAGEAAAAAAAAAAAAkwHUAAAAmAAAAAAAAAA==",
+              "ViewState": "AgIAAGgAAAAAAAAAAAAkwHwAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-27T18:54:51.37Z"
+              "WhenOpened": "2025-11-27T18:54:51.37Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 3,
               "Title": "Frm_principal.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\Programacion con base de datos 4to a\u00F1o\\AutoMaster\\Frm_principal.cs",
               "RelativeDocumentMoniker": "Frm_principal.cs",
               "ToolTip": "C:\\Users\\Dell\\Desktop\\Programacion con base de datos 4to a\u00F1o\\AutoMaster\\Frm_principal.cs [Dise\u00F1o]",
               "RelativeToolTip": "Frm_principal.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-27T18:54:42.09Z"
+              "WhenOpened": "2025-11-27T18:54:42.09Z",
+              "EditorCaption": " [Dise\u00F1o]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 22,
               "Title": "frmActualizarCONTACTO.cs",
               "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\Programacion con base de datos 4to a\u00F1o\\AutoMaster\\fmrContacto\\frmActualizarCONTACTO.cs",
               "RelativeDocumentMoniker": "fmrContacto\\frmActualizarCONTACTO.cs",
@@ -294,7 +309,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 23,
               "Title": "frmInsertarCONTACTO.cs",
               "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\Programacion con base de datos 4to a\u00F1o\\AutoMaster\\fmrContacto\\frmInsertarCONTACTO.cs",
               "RelativeDocumentMoniker": "fmrContacto\\frmInsertarCONTACTO.cs",
@@ -306,7 +321,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 24,
               "Title": "frmInsertarCONTACTO.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\Programacion con base de datos 4to a\u00F1o\\AutoMaster\\fmrContacto\\frmInsertarCONTACTO.cs",
               "RelativeDocumentMoniker": "fmrContacto\\frmInsertarCONTACTO.cs",
@@ -317,7 +332,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 25,
               "Title": "frmPrinContacto.cs",
               "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\Programacion con base de datos 4to a\u00F1o\\AutoMaster\\fmrContacto\\frmPrinContacto.cs",
               "RelativeDocumentMoniker": "fmrContacto\\frmPrinContacto.cs",
@@ -329,7 +344,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 21,
               "Title": "frmActualizarCONTACTO.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\Programacion con base de datos 4to a\u00F1o\\AutoMaster\\fmrContacto\\frmActualizarCONTACTO.cs",
               "RelativeDocumentMoniker": "fmrContacto\\frmActualizarCONTACTO.cs",
@@ -340,7 +355,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 26,
               "Title": "frmPrinContacto.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\Programacion con base de datos 4to a\u00F1o\\AutoMaster\\fmrContacto\\frmPrinContacto.cs",
               "RelativeDocumentMoniker": "fmrContacto\\frmPrinContacto.cs",
@@ -351,45 +366,46 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 8,
               "Title": "frnInsertarVehiculos.cs",
               "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\Programacion con base de datos 4to a\u00F1o\\AutoMaster\\frm_Vehiculos\\frnInsertarVehiculos.cs",
               "RelativeDocumentMoniker": "frm_Vehiculos\\frnInsertarVehiculos.cs",
               "ToolTip": "C:\\Users\\Dell\\Desktop\\Programacion con base de datos 4to a\u00F1o\\AutoMaster\\frm_Vehiculos\\frnInsertarVehiculos.cs",
               "RelativeToolTip": "frm_Vehiculos\\frnInsertarVehiculos.cs",
-              "ViewState": "AgIAAB8AAAAAAAAAAAAwwDYAAABbAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAACEAAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-27T17:33:00.126Z"
+              "WhenOpened": "2025-11-27T17:33:00.126Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 12,
               "Title": "frmPrinVehiculos.cs",
               "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\Programacion con base de datos 4to a\u00F1o\\AutoMaster\\frm_Vehiculos\\frmPrinVehiculos.cs",
               "RelativeDocumentMoniker": "frm_Vehiculos\\frmPrinVehiculos.cs",
               "ToolTip": "C:\\Users\\Dell\\Desktop\\Programacion con base de datos 4to a\u00F1o\\AutoMaster\\frm_Vehiculos\\frmPrinVehiculos.cs",
               "RelativeToolTip": "frm_Vehiculos\\frmPrinVehiculos.cs",
-              "ViewState": "AgIAACkAAAAAAAAAAADwv0AAAAAUAAAAAAAAAA==",
+              "ViewState": "AgIAACcAAAAAAAAAAAAhwDYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-27T17:32:50.761Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 10,
               "Title": "frmActualizarVehiculo.cs",
               "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\Programacion con base de datos 4to a\u00F1o\\AutoMaster\\frm_Vehiculos\\frmActualizarVehiculo.cs",
               "RelativeDocumentMoniker": "frm_Vehiculos\\frmActualizarVehiculo.cs",
               "ToolTip": "C:\\Users\\Dell\\Desktop\\Programacion con base de datos 4to a\u00F1o\\AutoMaster\\frm_Vehiculos\\frmActualizarVehiculo.cs",
               "RelativeToolTip": "frm_Vehiculos\\frmActualizarVehiculo.cs",
-              "ViewState": "AgIAACMAAAAAAAAAAAAIwDcAAABbAAAAAAAAAA==",
+              "ViewState": "AgIAACkAAAAAAAAAAAAMwCEAAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-27T17:32:26.057Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 11,
               "Title": "frmActualizarVehiculo.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\Programacion con base de datos 4to a\u00F1o\\AutoMaster\\frm_Vehiculos\\frmActualizarVehiculo.cs",
               "RelativeDocumentMoniker": "frm_Vehiculos\\frmActualizarVehiculo.cs",
@@ -401,18 +417,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 9,
               "Title": "frnInsertarVehiculos.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\Programacion con base de datos 4to a\u00F1o\\AutoMaster\\frm_Vehiculos\\frnInsertarVehiculos.cs",
               "RelativeDocumentMoniker": "frm_Vehiculos\\frnInsertarVehiculos.cs",
               "ToolTip": "C:\\Users\\Dell\\Desktop\\Programacion con base de datos 4to a\u00F1o\\AutoMaster\\frm_Vehiculos\\frnInsertarVehiculos.cs [Dise\u00F1o]",
               "RelativeToolTip": "frm_Vehiculos\\frnInsertarVehiculos.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-27T17:31:57.91Z"
+              "WhenOpened": "2025-11-27T17:31:57.91Z",
+              "EditorCaption": " [Dise\u00F1o]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 14,
               "Title": "frmPrinVehiculos.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\Programacion con base de datos 4to a\u00F1o\\AutoMaster\\frm_Vehiculos\\frmPrinVehiculos.cs",
               "RelativeDocumentMoniker": "frm_Vehiculos\\frmPrinVehiculos.cs",
@@ -424,7 +441,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 27,
               "Title": "CN_Empleados.cs",
               "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\Programacion con base de datos 4to a\u00F1o\\CAPA_NEGOCIO\\CN_Empleados.cs",
               "RelativeDocumentMoniker": "..\\CAPA_NEGOCIO\\CN_Empleados.cs",
@@ -436,7 +453,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 16,
               "Title": "CN_Vehiculos.cs",
               "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\Programacion con base de datos 4to a\u00F1o\\CAPA_NEGOCIO\\CN_Vehiculos.cs",
               "RelativeDocumentMoniker": "..\\CAPA_NEGOCIO\\CN_Vehiculos.cs",
@@ -444,12 +461,11 @@
               "RelativeToolTip": "..\\CAPA_NEGOCIO\\CN_Vehiculos.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAABoAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-27T17:24:51.562Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-27T17:24:51.562Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 18,
               "Title": "CD_Vehiculos.cs",
               "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\Programacion con base de datos 4to a\u00F1o\\CAPA_DATO\\CD_Vehiculos.cs",
               "RelativeDocumentMoniker": "..\\CAPA_DATO\\CD_Vehiculos.cs",
@@ -457,12 +473,11 @@
               "RelativeToolTip": "..\\CAPA_DATO\\CD_Vehiculos.cs",
               "ViewState": "AgIAAHAAAAAAAAAAAAAwwJIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-27T17:23:16.062Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-27T17:23:16.062Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 29,
               "Title": "CD_Clientes.cs",
               "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\Programacion con base de datos 4to a\u00F1o\\CAPA_DATO\\CD_Clientes.cs",
               "RelativeDocumentMoniker": "..\\CAPA_DATO\\CD_Clientes.cs",
@@ -474,7 +489,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 30,
               "Title": "CE_Contacto.cs",
               "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\Programacion con base de datos 4to a\u00F1o\\CAPA_ENTIDAD\\CE_Contacto.cs",
               "RelativeDocumentMoniker": "..\\CAPA_ENTIDAD\\CE_Contacto.cs",
@@ -486,7 +501,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 28,
               "Title": "CE_Vehiculo.cs",
               "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\Programacion con base de datos 4to a\u00F1o\\CAPA_ENTIDAD\\CE_Vehiculo.cs",
               "RelativeDocumentMoniker": "..\\CAPA_ENTIDAD\\CE_Vehiculo.cs",

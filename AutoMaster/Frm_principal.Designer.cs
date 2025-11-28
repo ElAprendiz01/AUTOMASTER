@@ -43,9 +43,10 @@
             this.contactoDeProveedoresToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.dToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.clientesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.vehiculosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.panel4 = new System.Windows.Forms.Panel();
             this.portada = new System.Windows.Forms.PictureBox();
-            this.vehiculosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.ventasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.panel3.SuspendLayout();
             this.menúPrincipal.SuspendLayout();
             this.panel4.SuspendLayout();
@@ -96,7 +97,8 @@
             this.contactoDeProveedoresToolStripMenuItem,
             this.dToolStripMenuItem,
             this.clientesToolStripMenuItem,
-            this.vehiculosToolStripMenuItem});
+            this.vehiculosToolStripMenuItem,
+            this.ventasToolStripMenuItem});
             this.menúPrincipal.Location = new System.Drawing.Point(0, 0);
             this.menúPrincipal.Name = "menúPrincipal";
             this.menúPrincipal.Size = new System.Drawing.Size(197, 442);
@@ -179,6 +181,13 @@
             this.clientesToolStripMenuItem.Text = "Clientes";
             this.clientesToolStripMenuItem.Click += new System.EventHandler(this.clientesToolStripMenuItem_Click);
             // 
+            // vehiculosToolStripMenuItem
+            // 
+            this.vehiculosToolStripMenuItem.Name = "vehiculosToolStripMenuItem";
+            this.vehiculosToolStripMenuItem.Size = new System.Drawing.Size(184, 21);
+            this.vehiculosToolStripMenuItem.Text = "Vehiculos ";
+            this.vehiculosToolStripMenuItem.Click += new System.EventHandler(this.vehiculosToolStripMenuItem_Click);
+            // 
             // panel4
             // 
             this.panel4.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
@@ -206,12 +215,12 @@
             this.portada.TabStop = false;
             this.portada.UseWaitCursor = true;
             // 
-            // vehiculosToolStripMenuItem
+            // ventasToolStripMenuItem
             // 
-            this.vehiculosToolStripMenuItem.Name = "vehiculosToolStripMenuItem";
-            this.vehiculosToolStripMenuItem.Size = new System.Drawing.Size(184, 21);
-            this.vehiculosToolStripMenuItem.Text = "Vehiculos ";
-            this.vehiculosToolStripMenuItem.Click += new System.EventHandler(this.vehiculosToolStripMenuItem_Click);
+            this.ventasToolStripMenuItem.Name = "ventasToolStripMenuItem";
+            this.ventasToolStripMenuItem.Size = new System.Drawing.Size(184, 21);
+            this.ventasToolStripMenuItem.Text = "Ventas ";
+            this.ventasToolStripMenuItem.Click += new System.EventHandler(this.ventasToolStripMenuItem_Click);
             // 
             // Frm_principal
             // 
@@ -255,6 +264,7 @@
         private System.Windows.Forms.ToolStripMenuItem dToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem clientesToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem vehiculosToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem ventasToolStripMenuItem;
     }
 }
 
