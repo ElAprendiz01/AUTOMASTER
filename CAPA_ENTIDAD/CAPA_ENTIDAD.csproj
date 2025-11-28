@@ -173,6 +173,7 @@
     <Compile Include="CE_Proveedores.cs" />
     <Compile Include="CE_ContactoProveedor.cs" />
     <Compile Include="CE_Vehiculo.cs" />
+    <Compile Include="CE_Ventas.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

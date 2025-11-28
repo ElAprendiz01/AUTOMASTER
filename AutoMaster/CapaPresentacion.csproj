@@ -255,6 +255,24 @@
     <Compile Include="frmProveedores\frmPrinProveedores.Designer.cs">
       <DependentUpon>frmPrinProveedores.cs</DependentUpon>
     </Compile>
+    <Compile Include="FrmVentas\frmAtualizarVenta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmVentas\frmAtualizarVenta.Designer.cs">
+      <DependentUpon>frmAtualizarVenta.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmVentas\frmInsertarVentas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmVentas\frmInsertarVentas.Designer.cs">
+      <DependentUpon>frmInsertarVentas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmVentas\frmPrinVentas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmVentas\frmPrinVentas.Designer.cs">
+      <DependentUpon>frmPrinVentas.cs</DependentUpon>
+    </Compile>
     <Compile Include="frm_Actualizar_DatosPersonales.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -422,6 +440,15 @@
     </EmbeddedResource>
     <EmbeddedResource Include="frmProveedores\frmPrinProveedores.resx">
       <DependentUpon>frmPrinProveedores.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmVentas\frmAtualizarVenta.resx">
+      <DependentUpon>frmAtualizarVenta.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmVentas\frmInsertarVentas.resx">
+      <DependentUpon>frmInsertarVentas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmVentas\frmPrinVentas.resx">
+      <DependentUpon>frmPrinVentas.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frm_Actualizar_DatosPersonales.resx">
       <DependentUpon>frm_Actualizar_DatosPersonales.cs</DependentUpon>
