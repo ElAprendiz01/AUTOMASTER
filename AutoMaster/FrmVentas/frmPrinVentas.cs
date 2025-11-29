@@ -1,4 +1,5 @@
-﻿using CAPA_ENTIDAD;
+﻿using AutoMaster.frm_Financiamiento;
+using CAPA_ENTIDAD;
 using CAPA_NEGOCIO;
 using System;
 using System.Collections.Generic;
@@ -59,7 +60,14 @@ namespace AutoMaster.FrmVentas
                 }
             }
         }
-
+        private void financiar()
+        {
+            FrmInsertarfinanciamiento _finaciamient = new FrmInsertarfinanciamiento();
+            _finaciamient.txbIDVenta.Text = dataGridViewListarVVentas.CurrentRow.Cells["Id_Venta"].Value.ToString();
+            _finaciamient.txbIDClinte.Text = dataGridViewListarVVentas.CurrentRow.Cells["Id_Cliente"].Value.ToString();
+            _finaciamient.TXBMonto.Text = dataGridViewListarVVentas.CurrentRow.Cells["Precio_Venta"].Value.ToString();
+            _finaciamient.ShowDialog();
+        }
 
 
         private void btnEditar_Click(object sender, EventArgs e)
@@ -119,5 +127,9 @@ namespace AutoMaster.FrmVentas
 
         }
 
+        private void btnfinanciar_Click(object sender, EventArgs e)
+        {
+            financiar();
+        }
     }
 }

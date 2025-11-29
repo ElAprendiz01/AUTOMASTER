@@ -162,7 +162,7 @@ CREATE TABLE Financiamiento (
     Id_Cliente INT NOT NULL REFERENCES Clientes(Id_Cliente),
     Monto DECIMAL(18,2) NOT NULL,
     Plazo_Meses INT NOT NULL,
-    Tasa_Interes DECIMAL(9,4) NULL,
+    Tasa_Interes DECIMAL(9,2) NULL,
     Fecha_Inicio DATE NOT NULL,
     Fecha_Cancelacion DATE NULL,
     Fecha_Registro DATETIME2 NOT NULL DEFAULT SYSUTCDATETIME()

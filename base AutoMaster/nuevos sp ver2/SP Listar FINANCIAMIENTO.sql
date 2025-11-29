@@ -1,4 +1,5 @@
-
+use AUTOMASTER
+go 
 CREATE OR ALTER PROCEDURE SPListarFinanciamientos
 AS
 BEGIN
@@ -19,3 +20,4 @@ BEGIN
     INNER JOIN Tbl_Datos_Personales DP ON C.Id_Persona = DP.Id_Persona
 END
 GO
+exec SPListarFinanciamientos
