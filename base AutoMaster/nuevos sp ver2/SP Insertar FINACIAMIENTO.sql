@@ -1,3 +1,4 @@
+
 CREATE OR ALTER PROCEDURE SPInsertarFinanciamiento
 (
     @Id_Venta INT,

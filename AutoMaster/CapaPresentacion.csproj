@@ -255,6 +255,24 @@
     <Compile Include="frmProveedores\frmPrinProveedores.Designer.cs">
       <DependentUpon>frmPrinProveedores.cs</DependentUpon>
     </Compile>
+    <Compile Include="FrmVentas\frmAtualizarVenta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmVentas\frmAtualizarVenta.Designer.cs">
+      <DependentUpon>frmAtualizarVenta.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmVentas\frmInsertarVentas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmVentas\frmInsertarVentas.Designer.cs">
+      <DependentUpon>frmInsertarVentas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmVentas\frmPrinVentas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmVentas\frmPrinVentas.Designer.cs">
+      <DependentUpon>frmPrinVentas.cs</DependentUpon>
+    </Compile>
     <Compile Include="frm_Actualizar_DatosPersonales.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -297,6 +315,24 @@
     </Compile>
     <Compile Include="frm_Empleados\frmPrinEmpleados.Designer.cs">
       <DependentUpon>frmPrinEmpleados.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_Financiamiento\frmActualizarFinanciamiento.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_Financiamiento\frmActualizarFinanciamiento.Designer.cs">
+      <DependentUpon>frmActualizarFinanciamiento.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_Financiamiento\FrmInsertarfinanciamiento.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_Financiamiento\FrmInsertarfinanciamiento.Designer.cs">
+      <DependentUpon>FrmInsertarfinanciamiento.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_Financiamiento\frmPrinFinanciamiento.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_Financiamiento\frmPrinFinanciamiento.Designer.cs">
+      <DependentUpon>frmPrinFinanciamiento.cs</DependentUpon>
     </Compile>
     <Compile Include="Frm_insertar_DatosPersonales.cs">
       <SubType>Form</SubType>
@@ -423,6 +459,15 @@
     <EmbeddedResource Include="frmProveedores\frmPrinProveedores.resx">
       <DependentUpon>frmPrinProveedores.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FrmVentas\frmAtualizarVenta.resx">
+      <DependentUpon>frmAtualizarVenta.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmVentas\frmInsertarVentas.resx">
+      <DependentUpon>frmInsertarVentas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmVentas\frmPrinVentas.resx">
+      <DependentUpon>frmPrinVentas.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frm_Actualizar_DatosPersonales.resx">
       <DependentUpon>frm_Actualizar_DatosPersonales.cs</DependentUpon>
     </EmbeddedResource>
@@ -443,6 +488,15 @@
     </EmbeddedResource>
     <EmbeddedResource Include="frm_Empleados\frmPrinEmpleados.resx">
       <DependentUpon>frmPrinEmpleados.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_Financiamiento\frmActualizarFinanciamiento.resx">
+      <DependentUpon>frmActualizarFinanciamiento.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_Financiamiento\FrmInsertarfinanciamiento.resx">
+      <DependentUpon>FrmInsertarfinanciamiento.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_Financiamiento\frmPrinFinanciamiento.resx">
+      <DependentUpon>frmPrinFinanciamiento.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Frm_insertar_DatosPersonales.resx">
       <DependentUpon>Frm_insertar_DatosPersonales.cs</DependentUpon>

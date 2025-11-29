@@ -67,7 +67,7 @@
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Size = new System.Drawing.Size(295, 166);
+            this.pictureBox1.Size = new System.Drawing.Size(296, 166);
             // 
             // btnGuardar
             // 
@@ -276,9 +276,6 @@
             this.Name = "frmActualizarVehiculo";
             this.Text = "frmActualizarVehiculo";
             this.Load += new System.EventHandler(this.frmActualizarVehiculo_Load);
-            this.Controls.SetChildIndex(this.panel1, 0);
-            this.Controls.SetChildIndex(this.panel2, 0);
-            this.Controls.SetChildIndex(this.button1, 0);
             this.Controls.SetChildIndex(this.txbIDPRoveedor, 0);
             this.Controls.SetChildIndex(this.txbMarca, 0);
             this.Controls.SetChildIndex(this.txbSerieMotor, 0);
@@ -299,6 +296,9 @@
             this.Controls.SetChildIndex(this.label6, 0);
             this.Controls.SetChildIndex(this.btnGuardar, 0);
             this.Controls.SetChildIndex(this.dateTimePickcFechaIngresoPAis, 0);
+            this.Controls.SetChildIndex(this.panel1, 0);
+            this.Controls.SetChildIndex(this.panel2, 0);
+            this.Controls.SetChildIndex(this.button1, 0);
             this.panel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);

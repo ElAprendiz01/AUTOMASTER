@@ -12,12 +12,12 @@ BEGIN
             P.Nombre_Empresa AS Proveedor, -- Alias para lectura
             V.Marca,
             V.Modelo,
-            V.Anio,
+            V.Anio as Año,
             V.Serie_Chasis,
             V.Serie_Motor,
             V.Precio,
             V.Id_Estado,
-            E.Estado AS Nombre_Estado,    -- Alias para lectura
+            E.Estado AS Nombre_Estado,    
             V.Fecha_Ingreso_Pais,
             V.Fecha_Registro
         FROM Vehiculos AS V

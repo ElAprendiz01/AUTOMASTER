@@ -5,6 +5,7 @@ using AutoMaster.frmCliente;
 using AutoMaster.frmContactoProveedor;
 using AutoMaster.frmDirecciones;
 using AutoMaster.frmProveedores;
+using AutoMaster.FrmVentas;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -116,6 +117,12 @@ namespace AutoMaster
         {
             frmPrinVehiculos _frmVehiculo = new frmPrinVehiculos();
             _frmVehiculo.ShowDialog();
+        }
+
+        private void ventasToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmPrinVentas _frmVentas = new frmPrinVentas();
+            _frmVentas.ShowDialog();
         }
     }
 }
