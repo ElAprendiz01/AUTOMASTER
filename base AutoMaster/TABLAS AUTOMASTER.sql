@@ -180,7 +180,7 @@ CREATE TABLE Pagos (
     Fecha_Registro DATETIME2 NOT NULL DEFAULT SYSUTCDATETIME(),
   
 );
-GO
+
 
 
 CREATE TABLE Facturas (

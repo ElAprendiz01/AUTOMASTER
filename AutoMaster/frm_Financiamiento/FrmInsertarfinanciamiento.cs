@@ -31,8 +31,6 @@ namespace AutoMaster.frm_Financiamiento
         private void btnInsertar_Click(object sender, EventArgs e)
         {
             GuardarNuevoFinanciamiento();
-            frmPrinFinanciamiento frmPrinFinanciamiento = new frmPrinFinanciamiento();
-            frmPrinFinanciamiento.ShowDialog();
         }
         private void GuardarNuevoFinanciamiento()
         {

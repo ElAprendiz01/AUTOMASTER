@@ -237,6 +237,42 @@
     <Compile Include="frmDirecciones\frmPrinDirecciones.Designer.cs">
       <DependentUpon>frmPrinDirecciones.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmFactura\frmActualizarFactura.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmFactura\frmActualizarFactura.Designer.cs">
+      <DependentUpon>frmActualizarFactura.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmFactura\frmInsertarFactura.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmFactura\frmInsertarFactura.Designer.cs">
+      <DependentUpon>frmInsertarFactura.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmFactura\frmPrinFactura.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmFactura\frmPrinFactura.Designer.cs">
+      <DependentUpon>frmPrinFactura.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmPagos\FrmActualizarPagos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPagos\FrmActualizarPagos.Designer.cs">
+      <DependentUpon>FrmActualizarPagos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmPagos\frmInsertarPagos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPagos\frmInsertarPagos.Designer.cs">
+      <DependentUpon>frmInsertarPagos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmPagos\frmPrinPagos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPagos\frmPrinPagos.Designer.cs">
+      <DependentUpon>frmPrinPagos.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmProveedores\frmActualizarProveedores.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -449,6 +485,24 @@
     </EmbeddedResource>
     <EmbeddedResource Include="frmDirecciones\frmPrinDirecciones.resx">
       <DependentUpon>frmPrinDirecciones.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmFactura\frmActualizarFactura.resx">
+      <DependentUpon>frmActualizarFactura.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmFactura\frmInsertarFactura.resx">
+      <DependentUpon>frmInsertarFactura.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmFactura\frmPrinFactura.resx">
+      <DependentUpon>frmPrinFactura.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPagos\FrmActualizarPagos.resx">
+      <DependentUpon>FrmActualizarPagos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPagos\frmInsertarPagos.resx">
+      <DependentUpon>frmInsertarPagos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPagos\frmPrinPagos.resx">
+      <DependentUpon>frmPrinPagos.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmProveedores\frmActualizarProveedores.resx">
       <DependentUpon>frmActualizarProveedores.cs</DependentUpon>
