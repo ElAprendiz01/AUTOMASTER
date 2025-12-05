@@ -1,3 +1,7 @@
+use AUTOMASTER
+go
+
+
 CREATE OR ALTER PROCEDURE SPInsertarPago
 (
     @Id_Venta INT = NULL,
@@ -22,3 +26,5 @@ BEGIN
     END CATCH
 END
 GO
+exec SPInsertarPago 1,1,'2023/10/10',20.36,'financiado','no tenia riales '
+exec SPListarPagos

@@ -171,6 +171,9 @@
     <Compile Include="CN_ContactoProveedores.cs" />
     <Compile Include="CN_Direcciones.cs" />
     <Compile Include="CN_Empleados.cs" />
+    <Compile Include="CN_Factura.cs" />
+    <Compile Include="CN_Financiamiento.cs" />
+    <Compile Include="CN_Pagos.cs" />
     <Compile Include="CN_Proveedores.cs" />
     <Compile Include="CN_Usuario.cs" />
     <Compile Include="CN_Vehiculos.cs" />

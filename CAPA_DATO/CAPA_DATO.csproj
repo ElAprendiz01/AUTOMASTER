@@ -172,6 +172,9 @@
     <Compile Include="CD_ContactoProveedor.cs" />
     <Compile Include="CD_Direcciones.cs" />
     <Compile Include="CD_Empleados.cs" />
+    <Compile Include="CD_Factura.cs" />
+    <Compile Include="CD_Financiamiento.cs" />
+    <Compile Include="CD_Pagos.cs" />
     <Compile Include="CD_Proveedores.cs" />
     <Compile Include="CD_Usuarios.cs" />
     <Compile Include="CD_Vehiculos.cs" />

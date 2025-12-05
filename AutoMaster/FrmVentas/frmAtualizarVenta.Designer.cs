@@ -28,20 +28,20 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.btnGuardar = new System.Windows.Forms.Button();
+            this.btnActualizar = new System.Windows.Forms.Button();
             this.label7 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.lbelCodigoCatalogo = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.Lbl_IdTipoCatalogo = new System.Windows.Forms.Label();
-            this.txbIdVehiculos = new System.Windows.Forms.TextBox();
-            this.txbSerieChasis = new System.Windows.Forms.TextBox();
-            this.txbAño = new System.Windows.Forms.TextBox();
+            this.txbIdVentas = new System.Windows.Forms.TextBox();
+            this.txbObservacion = new System.Windows.Forms.TextBox();
+            this.txbPrecioDeVenta = new System.Windows.Forms.TextBox();
             this.txbIdEmpleado = new System.Windows.Forms.TextBox();
             this.txbIdCliente = new System.Windows.Forms.TextBox();
             this.txbIDVehiculo = new System.Windows.Forms.TextBox();
-            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
+            this.dateTimePickerFechadeVenta = new System.Windows.Forms.DateTimePicker();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -61,23 +61,24 @@
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Size = new System.Drawing.Size(304, 166);
+            this.pictureBox1.Size = new System.Drawing.Size(284, 166);
             // 
-            // btnGuardar
+            // btnActualizar
             // 
-            this.btnGuardar.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
+            this.btnActualizar.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnGuardar.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.btnGuardar.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnGuardar.Font = new System.Drawing.Font("Impact", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnGuardar.ForeColor = System.Drawing.SystemColors.HotTrack;
-            this.btnGuardar.Location = new System.Drawing.Point(642, 430);
-            this.btnGuardar.Margin = new System.Windows.Forms.Padding(6, 4, 6, 4);
-            this.btnGuardar.Name = "btnGuardar";
-            this.btnGuardar.Size = new System.Drawing.Size(96, 55);
-            this.btnGuardar.TabIndex = 88;
-            this.btnGuardar.Text = "Actualizar";
-            this.btnGuardar.UseVisualStyleBackColor = false;
+            this.btnActualizar.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.btnActualizar.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnActualizar.Font = new System.Drawing.Font("Impact", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnActualizar.ForeColor = System.Drawing.SystemColors.HotTrack;
+            this.btnActualizar.Location = new System.Drawing.Point(523, 400);
+            this.btnActualizar.Margin = new System.Windows.Forms.Padding(6, 4, 6, 4);
+            this.btnActualizar.Name = "btnActualizar";
+            this.btnActualizar.Size = new System.Drawing.Size(96, 55);
+            this.btnActualizar.TabIndex = 88;
+            this.btnActualizar.Text = "Actualizar";
+            this.btnActualizar.UseVisualStyleBackColor = false;
+            this.btnActualizar.Click += new System.EventHandler(this.btnActualizar_Click);
             // 
             // label7
             // 
@@ -101,7 +102,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(37, 199);
+            this.label3.Location = new System.Drawing.Point(27, 199);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(106, 19);
             this.label3.TabIndex = 91;
@@ -110,7 +111,7 @@
             // lbelCodigoCatalogo
             // 
             this.lbelCodigoCatalogo.AutoSize = true;
-            this.lbelCodigoCatalogo.Location = new System.Drawing.Point(37, 153);
+            this.lbelCodigoCatalogo.Location = new System.Drawing.Point(27, 151);
             this.lbelCodigoCatalogo.Name = "lbelCodigoCatalogo";
             this.lbelCodigoCatalogo.Size = new System.Drawing.Size(82, 19);
             this.lbelCodigoCatalogo.TabIndex = 92;
@@ -128,84 +129,85 @@
             // Lbl_IdTipoCatalogo
             // 
             this.Lbl_IdTipoCatalogo.AutoSize = true;
-            this.Lbl_IdTipoCatalogo.Location = new System.Drawing.Point(37, 100);
+            this.Lbl_IdTipoCatalogo.Location = new System.Drawing.Point(27, 102);
             this.Lbl_IdTipoCatalogo.Name = "Lbl_IdTipoCatalogo";
             this.Lbl_IdTipoCatalogo.Size = new System.Drawing.Size(96, 19);
             this.Lbl_IdTipoCatalogo.TabIndex = 94;
             this.Lbl_IdTipoCatalogo.Text = "ID Vehículo";
             // 
-            // txbIdVehiculos
+            // txbIdVentas
             // 
-            this.txbIdVehiculos.BackColor = System.Drawing.SystemColors.Info;
-            this.txbIdVehiculos.Location = new System.Drawing.Point(172, 224);
-            this.txbIdVehiculos.Name = "txbIdVehiculos";
-            this.txbIdVehiculos.Size = new System.Drawing.Size(139, 27);
-            this.txbIdVehiculos.TabIndex = 83;
-            this.txbIdVehiculos.Visible = false;
+            this.txbIdVentas.BackColor = System.Drawing.SystemColors.Info;
+            this.txbIdVentas.Location = new System.Drawing.Point(678, 97);
+            this.txbIdVentas.Name = "txbIdVentas";
+            this.txbIdVentas.Size = new System.Drawing.Size(139, 27);
+            this.txbIdVentas.TabIndex = 83;
+            this.txbIdVentas.Visible = false;
             // 
-            // txbSerieChasis
+            // txbObservacion
             // 
-            this.txbSerieChasis.BackColor = System.Drawing.SystemColors.Info;
-            this.txbSerieChasis.Location = new System.Drawing.Point(457, 186);
-            this.txbSerieChasis.Name = "txbSerieChasis";
-            this.txbSerieChasis.Size = new System.Drawing.Size(139, 27);
-            this.txbSerieChasis.TabIndex = 84;
+            this.txbObservacion.BackColor = System.Drawing.SystemColors.Info;
+            this.txbObservacion.Location = new System.Drawing.Point(457, 186);
+            this.txbObservacion.Name = "txbObservacion";
+            this.txbObservacion.Size = new System.Drawing.Size(200, 27);
+            this.txbObservacion.TabIndex = 84;
             // 
-            // txbAño
+            // txbPrecioDeVenta
             // 
-            this.txbAño.BackColor = System.Drawing.SystemColors.Info;
-            this.txbAño.Location = new System.Drawing.Point(457, 135);
-            this.txbAño.Name = "txbAño";
-            this.txbAño.Size = new System.Drawing.Size(139, 27);
-            this.txbAño.TabIndex = 85;
+            this.txbPrecioDeVenta.BackColor = System.Drawing.SystemColors.Info;
+            this.txbPrecioDeVenta.Location = new System.Drawing.Point(457, 135);
+            this.txbPrecioDeVenta.Name = "txbPrecioDeVenta";
+            this.txbPrecioDeVenta.Size = new System.Drawing.Size(200, 27);
+            this.txbPrecioDeVenta.TabIndex = 85;
             // 
             // txbIdEmpleado
             // 
             this.txbIdEmpleado.BackColor = System.Drawing.SystemColors.Info;
-            this.txbIdEmpleado.Location = new System.Drawing.Point(172, 191);
+            this.txbIdEmpleado.Location = new System.Drawing.Point(139, 191);
             this.txbIdEmpleado.Name = "txbIdEmpleado";
-            this.txbIdEmpleado.Size = new System.Drawing.Size(139, 27);
+            this.txbIdEmpleado.Size = new System.Drawing.Size(172, 27);
             this.txbIdEmpleado.TabIndex = 86;
+            this.txbIdEmpleado.TextChanged += new System.EventHandler(this.txbIdEmpleado_TextChanged);
             // 
             // txbIdCliente
             // 
             this.txbIdCliente.BackColor = System.Drawing.SystemColors.Info;
-            this.txbIdCliente.Location = new System.Drawing.Point(172, 143);
+            this.txbIdCliente.Location = new System.Drawing.Point(139, 143);
             this.txbIdCliente.Name = "txbIdCliente";
-            this.txbIdCliente.Size = new System.Drawing.Size(139, 27);
+            this.txbIdCliente.Size = new System.Drawing.Size(172, 27);
             this.txbIdCliente.TabIndex = 87;
             // 
             // txbIDVehiculo
             // 
             this.txbIDVehiculo.BackColor = System.Drawing.SystemColors.Info;
-            this.txbIDVehiculo.Location = new System.Drawing.Point(172, 92);
+            this.txbIDVehiculo.Location = new System.Drawing.Point(139, 92);
             this.txbIDVehiculo.Name = "txbIDVehiculo";
-            this.txbIDVehiculo.Size = new System.Drawing.Size(139, 27);
+            this.txbIDVehiculo.Size = new System.Drawing.Size(172, 27);
             this.txbIDVehiculo.TabIndex = 82;
             // 
-            // dateTimePicker1
+            // dateTimePickerFechadeVenta
             // 
-            this.dateTimePicker1.Location = new System.Drawing.Point(457, 94);
-            this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(200, 27);
-            this.dateTimePicker1.TabIndex = 95;
+            this.dateTimePickerFechadeVenta.Location = new System.Drawing.Point(457, 94);
+            this.dateTimePickerFechadeVenta.Name = "dateTimePickerFechadeVenta";
+            this.dateTimePickerFechadeVenta.Size = new System.Drawing.Size(200, 27);
+            this.dateTimePickerFechadeVenta.TabIndex = 95;
             // 
             // frmAtualizarVenta
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 19F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(852, 539);
-            this.Controls.Add(this.dateTimePicker1);
-            this.Controls.Add(this.btnGuardar);
+            this.Controls.Add(this.dateTimePickerFechadeVenta);
+            this.Controls.Add(this.btnActualizar);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.lbelCodigoCatalogo);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.Lbl_IdTipoCatalogo);
-            this.Controls.Add(this.txbIdVehiculos);
-            this.Controls.Add(this.txbSerieChasis);
-            this.Controls.Add(this.txbAño);
+            this.Controls.Add(this.txbIdVentas);
+            this.Controls.Add(this.txbObservacion);
+            this.Controls.Add(this.txbPrecioDeVenta);
             this.Controls.Add(this.txbIdEmpleado);
             this.Controls.Add(this.txbIdCliente);
             this.Controls.Add(this.txbIDVehiculo);
@@ -219,17 +221,17 @@
             this.Controls.SetChildIndex(this.txbIDVehiculo, 0);
             this.Controls.SetChildIndex(this.txbIdCliente, 0);
             this.Controls.SetChildIndex(this.txbIdEmpleado, 0);
-            this.Controls.SetChildIndex(this.txbAño, 0);
-            this.Controls.SetChildIndex(this.txbSerieChasis, 0);
-            this.Controls.SetChildIndex(this.txbIdVehiculos, 0);
+            this.Controls.SetChildIndex(this.txbPrecioDeVenta, 0);
+            this.Controls.SetChildIndex(this.txbObservacion, 0);
+            this.Controls.SetChildIndex(this.txbIdVentas, 0);
             this.Controls.SetChildIndex(this.Lbl_IdTipoCatalogo, 0);
             this.Controls.SetChildIndex(this.label1, 0);
             this.Controls.SetChildIndex(this.lbelCodigoCatalogo, 0);
             this.Controls.SetChildIndex(this.label3, 0);
             this.Controls.SetChildIndex(this.label5, 0);
             this.Controls.SetChildIndex(this.label7, 0);
-            this.Controls.SetChildIndex(this.btnGuardar, 0);
-            this.Controls.SetChildIndex(this.dateTimePicker1, 0);
+            this.Controls.SetChildIndex(this.btnActualizar, 0);
+            this.Controls.SetChildIndex(this.dateTimePickerFechadeVenta, 0);
             this.panel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
@@ -239,19 +241,19 @@
 
         #endregion
 
-        public System.Windows.Forms.Button btnGuardar;
+        public System.Windows.Forms.Button btnActualizar;
         public System.Windows.Forms.Label label7;
         public System.Windows.Forms.Label label5;
         public System.Windows.Forms.Label label3;
         public System.Windows.Forms.Label lbelCodigoCatalogo;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label Lbl_IdTipoCatalogo;
-        public System.Windows.Forms.TextBox txbIdVehiculos;
-        public System.Windows.Forms.TextBox txbSerieChasis;
-        public System.Windows.Forms.TextBox txbAño;
+        public System.Windows.Forms.TextBox txbIdVentas;
+        public System.Windows.Forms.TextBox txbObservacion;
+        public System.Windows.Forms.TextBox txbPrecioDeVenta;
         public System.Windows.Forms.TextBox txbIdEmpleado;
         public System.Windows.Forms.TextBox txbIdCliente;
         public System.Windows.Forms.TextBox txbIDVehiculo;
-        private System.Windows.Forms.DateTimePicker dateTimePicker1;
+        public System.Windows.Forms.DateTimePicker dateTimePickerFechadeVenta;
     }
 }

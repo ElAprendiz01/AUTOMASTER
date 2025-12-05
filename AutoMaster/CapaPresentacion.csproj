@@ -237,6 +237,42 @@
     <Compile Include="frmDirecciones\frmPrinDirecciones.Designer.cs">
       <DependentUpon>frmPrinDirecciones.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmFactura\frmActualizarFactura.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmFactura\frmActualizarFactura.Designer.cs">
+      <DependentUpon>frmActualizarFactura.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmFactura\frmInsertarFactura.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmFactura\frmInsertarFactura.Designer.cs">
+      <DependentUpon>frmInsertarFactura.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmFactura\frmPrinFactura.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmFactura\frmPrinFactura.Designer.cs">
+      <DependentUpon>frmPrinFactura.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmPagos\FrmActualizarPagos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPagos\FrmActualizarPagos.Designer.cs">
+      <DependentUpon>FrmActualizarPagos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmPagos\frmInsertarPagos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPagos\frmInsertarPagos.Designer.cs">
+      <DependentUpon>frmInsertarPagos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmPagos\frmPrinPagos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPagos\frmPrinPagos.Designer.cs">
+      <DependentUpon>frmPrinPagos.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmProveedores\frmActualizarProveedores.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -316,11 +352,31 @@
     <Compile Include="frm_Empleados\frmPrinEmpleados.Designer.cs">
       <DependentUpon>frmPrinEmpleados.cs</DependentUpon>
     </Compile>
+<<<<<<< HEAD
     <Compile Include="Frm_InicioSesion.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Frm_InicioSesion.Designer.cs">
       <DependentUpon>Frm_InicioSesion.cs</DependentUpon>
+=======
+    <Compile Include="frm_Financiamiento\frmActualizarFinanciamiento.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_Financiamiento\frmActualizarFinanciamiento.Designer.cs">
+      <DependentUpon>frmActualizarFinanciamiento.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_Financiamiento\FrmInsertarfinanciamiento.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_Financiamiento\FrmInsertarfinanciamiento.Designer.cs">
+      <DependentUpon>FrmInsertarfinanciamiento.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_Financiamiento\frmPrinFinanciamiento.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_Financiamiento\frmPrinFinanciamiento.Designer.cs">
+      <DependentUpon>frmPrinFinanciamiento.cs</DependentUpon>
+>>>>>>> 1c116be655964fdef3ee09159b2e41f21b466dce
     </Compile>
     <Compile Include="Frm_insertar_DatosPersonales.cs">
       <SubType>Form</SubType>
@@ -438,6 +494,24 @@
     <EmbeddedResource Include="frmDirecciones\frmPrinDirecciones.resx">
       <DependentUpon>frmPrinDirecciones.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="frmFactura\frmActualizarFactura.resx">
+      <DependentUpon>frmActualizarFactura.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmFactura\frmInsertarFactura.resx">
+      <DependentUpon>frmInsertarFactura.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmFactura\frmPrinFactura.resx">
+      <DependentUpon>frmPrinFactura.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPagos\FrmActualizarPagos.resx">
+      <DependentUpon>FrmActualizarPagos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPagos\frmInsertarPagos.resx">
+      <DependentUpon>frmInsertarPagos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPagos\frmPrinPagos.resx">
+      <DependentUpon>frmPrinPagos.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmProveedores\frmActualizarProveedores.resx">
       <DependentUpon>frmActualizarProveedores.cs</DependentUpon>
     </EmbeddedResource>
@@ -477,8 +551,19 @@
     <EmbeddedResource Include="frm_Empleados\frmPrinEmpleados.resx">
       <DependentUpon>frmPrinEmpleados.cs</DependentUpon>
     </EmbeddedResource>
+<<<<<<< HEAD
     <EmbeddedResource Include="Frm_InicioSesion.resx">
       <DependentUpon>Frm_InicioSesion.cs</DependentUpon>
+=======
+    <EmbeddedResource Include="frm_Financiamiento\frmActualizarFinanciamiento.resx">
+      <DependentUpon>frmActualizarFinanciamiento.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_Financiamiento\FrmInsertarfinanciamiento.resx">
+      <DependentUpon>FrmInsertarfinanciamiento.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_Financiamiento\frmPrinFinanciamiento.resx">
+      <DependentUpon>frmPrinFinanciamiento.cs</DependentUpon>
+>>>>>>> 1c116be655964fdef3ee09159b2e41f21b466dce
     </EmbeddedResource>
     <EmbeddedResource Include="Frm_insertar_DatosPersonales.resx">
       <DependentUpon>Frm_insertar_DatosPersonales.cs</DependentUpon>

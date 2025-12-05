@@ -32,6 +32,7 @@
             this.btnEditar = new System.Windows.Forms.Button();
             this.btNuevo = new System.Windows.Forms.Button();
             this.dataGridViewListarVVentas = new System.Windows.Forms.DataGridView();
+            this.btnfinanciar = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewListarVVentas)).BeginInit();
@@ -49,11 +50,10 @@
             // button1
             // 
             this.button1.Location = new System.Drawing.Point(775, 434);
-            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Size = new System.Drawing.Size(338, 166);
+            this.pictureBox1.Size = new System.Drawing.Size(380, 166);
             // 
             // btnElimianar
             // 
@@ -69,6 +69,7 @@
             this.btnElimianar.TabIndex = 14;
             this.btnElimianar.Text = "Eliminar";
             this.btnElimianar.UseVisualStyleBackColor = false;
+            this.btnElimianar.Click += new System.EventHandler(this.btnElimianar_Click);
             // 
             // btnEditar
             // 
@@ -84,6 +85,7 @@
             this.btnEditar.TabIndex = 15;
             this.btnEditar.Text = "Editar ";
             this.btnEditar.UseVisualStyleBackColor = false;
+            this.btnEditar.Click += new System.EventHandler(this.btnEditar_Click);
             // 
             // btNuevo
             // 
@@ -99,6 +101,7 @@
             this.btNuevo.TabIndex = 16;
             this.btNuevo.Text = "Nuevo";
             this.btNuevo.UseVisualStyleBackColor = false;
+            this.btNuevo.Click += new System.EventHandler(this.btNuevo_Click);
             // 
             // dataGridViewListarVVentas
             // 
@@ -109,11 +112,22 @@
             this.dataGridViewListarVVentas.Size = new System.Drawing.Size(830, 288);
             this.dataGridViewListarVVentas.TabIndex = 13;
             // 
+            // btnfinanciar
+            // 
+            this.btnfinanciar.Location = new System.Drawing.Point(401, 413);
+            this.btnfinanciar.Name = "btnfinanciar";
+            this.btnfinanciar.Size = new System.Drawing.Size(88, 55);
+            this.btnfinanciar.TabIndex = 17;
+            this.btnfinanciar.Text = "financiar ";
+            this.btnfinanciar.UseVisualStyleBackColor = true;
+            this.btnfinanciar.Click += new System.EventHandler(this.btnfinanciar_Click);
+            // 
             // frmPrinVentas
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 19F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(886, 543);
+            this.Controls.Add(this.btnfinanciar);
             this.Controls.Add(this.btnElimianar);
             this.Controls.Add(this.btnEditar);
             this.Controls.Add(this.btNuevo);
@@ -129,6 +143,7 @@
             this.Controls.SetChildIndex(this.btNuevo, 0);
             this.Controls.SetChildIndex(this.btnEditar, 0);
             this.Controls.SetChildIndex(this.btnElimianar, 0);
+            this.Controls.SetChildIndex(this.btnfinanciar, 0);
             this.panel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewListarVVentas)).EndInit();
@@ -142,5 +157,6 @@
         public System.Windows.Forms.Button btnEditar;
         public System.Windows.Forms.Button btNuevo;
         public System.Windows.Forms.DataGridView dataGridViewListarVVentas;
+        private System.Windows.Forms.Button btnfinanciar;
     }
 }

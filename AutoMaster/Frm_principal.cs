@@ -1,10 +1,14 @@
 ﻿using AutoMaster.fmrContacto;
 using AutoMaster.frm_Empleados;
+using AutoMaster.frm_Financiamiento;
 using AutoMaster.frm_Vehiculos;
 using AutoMaster.frmCliente;
 using AutoMaster.frmContactoProveedor;
 using AutoMaster.frmDirecciones;
+using AutoMaster.frmFactura;
+using AutoMaster.frmPagos;
 using AutoMaster.frmProveedores;
+using AutoMaster.FrmVentas;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -120,9 +124,34 @@ namespace AutoMaster
             _frmVehiculo.ShowDialog();
         }
 
+<<<<<<< HEAD
         private void panel1_Paint(object sender, PaintEventArgs e)
         {
 
+=======
+        private void ventasToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmPrinVentas _frmVentas = new frmPrinVentas();
+            _frmVentas.ShowDialog();
+        }
+
+        private void fiancimientoToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmPrinFinanciamiento _frmFinanciamiento = new frmPrinFinanciamiento();
+            _frmFinanciamiento.ShowDialog();
+        }
+
+        private void pagosToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmPrinPagos _psgo = new frmPrinPagos();
+            _psgo.ShowDialog();
+        }
+
+        private void facturasToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmPrinFactura _fac = new frmPrinFactura();
+            _fac.ShowDialog();
+>>>>>>> 1c116be655964fdef3ee09159b2e41f21b466dce
         }
     }
 }

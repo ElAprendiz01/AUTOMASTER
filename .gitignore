@@ -5,3 +5,25 @@ obj/
 *.log
 *.tmp
 .vs/
+# Visual Studio files
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Build folders
+bin/
+obj/
+Debug/
+Release/
+
+# C# generated files
+*.dll
+*.pdb
+*.exe
+*.cache
+*.db
+
+# Copilot / semantic indexes
+CopilotIndices/

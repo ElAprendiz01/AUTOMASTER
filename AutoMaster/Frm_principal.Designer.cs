@@ -44,8 +44,17 @@
             this.dToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.clientesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.vehiculosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+<<<<<<< HEAD
             this.panel4 = new System.Windows.Forms.Panel();
             this.portada = new System.Windows.Forms.PictureBox();
+=======
+            this.ventasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.panel4 = new System.Windows.Forms.Panel();
+            this.portada = new System.Windows.Forms.PictureBox();
+            this.fiancimientoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.pagosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.facturasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+>>>>>>> 1c116be655964fdef3ee09159b2e41f21b466dce
             this.panel3.SuspendLayout();
             this.menúPrincipal.SuspendLayout();
             this.panel4.SuspendLayout();
@@ -102,7 +111,11 @@
             this.contactoDeProveedoresToolStripMenuItem,
             this.dToolStripMenuItem,
             this.clientesToolStripMenuItem,
-            this.vehiculosToolStripMenuItem});
+            this.vehiculosToolStripMenuItem,
+            this.ventasToolStripMenuItem,
+            this.fiancimientoToolStripMenuItem,
+            this.pagosToolStripMenuItem,
+            this.facturasToolStripMenuItem});
             this.menúPrincipal.Location = new System.Drawing.Point(0, 0);
             this.menúPrincipal.Name = "menúPrincipal";
             this.menúPrincipal.Size = new System.Drawing.Size(288, 680);
@@ -188,10 +201,24 @@
             // vehiculosToolStripMenuItem
             // 
             this.vehiculosToolStripMenuItem.Name = "vehiculosToolStripMenuItem";
+<<<<<<< HEAD
             this.vehiculosToolStripMenuItem.Size = new System.Drawing.Size(269, 31);
             this.vehiculosToolStripMenuItem.Text = "Vehiculos ";
             this.vehiculosToolStripMenuItem.Click += new System.EventHandler(this.vehiculosToolStripMenuItem_Click);
             // 
+=======
+            this.vehiculosToolStripMenuItem.Size = new System.Drawing.Size(184, 21);
+            this.vehiculosToolStripMenuItem.Text = "Vehiculos ";
+            this.vehiculosToolStripMenuItem.Click += new System.EventHandler(this.vehiculosToolStripMenuItem_Click);
+            // 
+            // ventasToolStripMenuItem
+            // 
+            this.ventasToolStripMenuItem.Name = "ventasToolStripMenuItem";
+            this.ventasToolStripMenuItem.Size = new System.Drawing.Size(184, 21);
+            this.ventasToolStripMenuItem.Text = "Ventas ";
+            this.ventasToolStripMenuItem.Click += new System.EventHandler(this.ventasToolStripMenuItem_Click);
+            // 
+>>>>>>> 1c116be655964fdef3ee09159b2e41f21b466dce
             // panel4
             // 
             this.panel4.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
@@ -221,6 +248,30 @@
             this.portada.TabStop = false;
             this.portada.UseWaitCursor = true;
             // 
+<<<<<<< HEAD
+=======
+            // fiancimientoToolStripMenuItem
+            // 
+            this.fiancimientoToolStripMenuItem.Name = "fiancimientoToolStripMenuItem";
+            this.fiancimientoToolStripMenuItem.Size = new System.Drawing.Size(184, 21);
+            this.fiancimientoToolStripMenuItem.Text = "Financiamiento";
+            this.fiancimientoToolStripMenuItem.Click += new System.EventHandler(this.fiancimientoToolStripMenuItem_Click);
+            // 
+            // pagosToolStripMenuItem
+            // 
+            this.pagosToolStripMenuItem.Name = "pagosToolStripMenuItem";
+            this.pagosToolStripMenuItem.Size = new System.Drawing.Size(184, 21);
+            this.pagosToolStripMenuItem.Text = "Pagos ";
+            this.pagosToolStripMenuItem.Click += new System.EventHandler(this.pagosToolStripMenuItem_Click);
+            // 
+            // facturasToolStripMenuItem
+            // 
+            this.facturasToolStripMenuItem.Name = "facturasToolStripMenuItem";
+            this.facturasToolStripMenuItem.Size = new System.Drawing.Size(184, 21);
+            this.facturasToolStripMenuItem.Text = "Facturas";
+            this.facturasToolStripMenuItem.Click += new System.EventHandler(this.facturasToolStripMenuItem_Click);
+            // 
+>>>>>>> 1c116be655964fdef3ee09159b2e41f21b466dce
             // Frm_principal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
@@ -264,6 +315,10 @@
         private System.Windows.Forms.ToolStripMenuItem dToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem clientesToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem vehiculosToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem ventasToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem fiancimientoToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem pagosToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem facturasToolStripMenuItem;
     }
 }
 
