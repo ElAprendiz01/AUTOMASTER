@@ -176,6 +176,8 @@
     <Compile Include="CD_Financiamiento.cs" />
     <Compile Include="CD_Pagos.cs" />
     <Compile Include="CD_Proveedores.cs" />
+    <Compile Include="cd_servicioDeVehiculos.cs" />
+    <Compile Include="CD_Taller.cs" />
     <Compile Include="CD_Vehiculos.cs" />
     <Compile Include="CD_Ventas.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

@@ -8,6 +8,8 @@ using AutoMaster.frmDirecciones;
 using AutoMaster.frmFactura;
 using AutoMaster.frmPagos;
 using AutoMaster.frmProveedores;
+using AutoMaster.frmServiciosVehiculos;
+using AutoMaster.frmTaller;
 using AutoMaster.FrmVentas;
 using System;
 using System.Collections.Generic;
@@ -144,6 +146,19 @@ namespace AutoMaster
         {
             frmPrinFactura _fac = new frmPrinFactura();
             _fac.ShowDialog();
+        }
+
+        private void tallerToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmPrinTaller _taller = new frmPrinTaller();
+            _taller.ShowDialog();
+        }
+
+        private void servicioDeVehículoToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmPrinServicioDeVehiculos _servicioVehiculo = new frmPrinServicioDeVehiculos();
+            _servicioVehiculo.ShowDialog();
+
         }
     }
 }

@@ -1,6 +1,6 @@
-﻿namespace AutoMaster
+﻿namespace AutoMaster.frmTaller
 {
-    partial class Frm_prin_Estado
+    partial class frmPrinTaller
     {
         /// <summary>
         /// Required designer variable.
@@ -30,30 +30,29 @@
         {
             this.btnElimianar = new System.Windows.Forms.Button();
             this.btnEditar = new System.Windows.Forms.Button();
-            this.btnNuevo = new System.Windows.Forms.Button();
-            this.dataGridViewListarEstado = new System.Windows.Forms.DataGridView();
+            this.btNuevo = new System.Windows.Forms.Button();
+            this.dataGridViewListarTALLER = new System.Windows.Forms.DataGridView();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridViewListarEstado)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridViewListarTALLER)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
             // 
-            this.panel1.Size = new System.Drawing.Size(837, 76);
+            this.panel1.Size = new System.Drawing.Size(952, 81);
             // 
             // panel2
             // 
-            this.panel2.Location = new System.Drawing.Point(0, 418);
-            this.panel2.Size = new System.Drawing.Size(837, 46);
+            this.panel2.Location = new System.Drawing.Point(0, 478);
+            this.panel2.Size = new System.Drawing.Size(952, 46);
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(726, 355);
+            this.button1.Location = new System.Drawing.Point(841, 415);
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Location = new System.Drawing.Point(-47, -20);
-            this.pictureBox1.Size = new System.Drawing.Size(261, 112);
+            this.pictureBox1.Size = new System.Drawing.Size(404, 166);
             // 
             // btnElimianar
             // 
@@ -62,14 +61,13 @@
             this.btnElimianar.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnElimianar.Font = new System.Drawing.Font("Impact", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnElimianar.ForeColor = System.Drawing.SystemColors.HotTrack;
-            this.btnElimianar.Location = new System.Drawing.Point(290, 355);
+            this.btnElimianar.Location = new System.Drawing.Point(299, 409);
             this.btnElimianar.Margin = new System.Windows.Forms.Padding(6, 4, 6, 4);
             this.btnElimianar.Name = "btnElimianar";
             this.btnElimianar.Size = new System.Drawing.Size(96, 55);
-            this.btnElimianar.TabIndex = 6;
+            this.btnElimianar.TabIndex = 22;
             this.btnElimianar.Text = "Eliminar";
             this.btnElimianar.UseVisualStyleBackColor = false;
-            this.btnElimianar.Click += new System.EventHandler(this.btnElimianar_Click);
             // 
             // btnEditar
             // 
@@ -78,64 +76,63 @@
             this.btnEditar.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnEditar.Font = new System.Drawing.Font("Impact", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnEditar.ForeColor = System.Drawing.SystemColors.HotTrack;
-            this.btnEditar.Location = new System.Drawing.Point(165, 355);
+            this.btnEditar.Location = new System.Drawing.Point(176, 409);
             this.btnEditar.Margin = new System.Windows.Forms.Padding(6, 4, 6, 4);
             this.btnEditar.Name = "btnEditar";
             this.btnEditar.Size = new System.Drawing.Size(96, 55);
-            this.btnEditar.TabIndex = 7;
+            this.btnEditar.TabIndex = 23;
             this.btnEditar.Text = "Editar ";
             this.btnEditar.UseVisualStyleBackColor = false;
             this.btnEditar.Click += new System.EventHandler(this.btnEditar_Click);
             // 
-            // btnNuevo
+            // btNuevo
             // 
-            this.btnNuevo.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.btnNuevo.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.btnNuevo.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnNuevo.Font = new System.Drawing.Font("Impact", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnNuevo.ForeColor = System.Drawing.SystemColors.HotTrack;
-            this.btnNuevo.Location = new System.Drawing.Point(40, 355);
-            this.btnNuevo.Margin = new System.Windows.Forms.Padding(6, 4, 6, 4);
-            this.btnNuevo.Name = "btnNuevo";
-            this.btnNuevo.Size = new System.Drawing.Size(96, 55);
-            this.btnNuevo.TabIndex = 8;
-            this.btnNuevo.Text = "Nuevo";
-            this.btnNuevo.UseVisualStyleBackColor = false;
-            this.btnNuevo.Click += new System.EventHandler(this.btnNuevo_Click);
+            this.btNuevo.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.btNuevo.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.btNuevo.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btNuevo.Font = new System.Drawing.Font("Impact", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btNuevo.ForeColor = System.Drawing.SystemColors.HotTrack;
+            this.btNuevo.Location = new System.Drawing.Point(52, 409);
+            this.btNuevo.Margin = new System.Windows.Forms.Padding(6, 4, 6, 4);
+            this.btNuevo.Name = "btNuevo";
+            this.btNuevo.Size = new System.Drawing.Size(96, 55);
+            this.btNuevo.TabIndex = 24;
+            this.btNuevo.Text = "Nuevo";
+            this.btNuevo.UseVisualStyleBackColor = false;
+            this.btNuevo.Click += new System.EventHandler(this.btNuevo_Click);
             // 
-            // dataGridViewListarEstado
+            // dataGridViewListarTALLER
             // 
-            this.dataGridViewListarEstado.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridViewListarEstado.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.dataGridViewListarEstado.Location = new System.Drawing.Point(40, 98);
-            this.dataGridViewListarEstado.Name = "dataGridViewListarEstado";
-            this.dataGridViewListarEstado.Size = new System.Drawing.Size(757, 203);
-            this.dataGridViewListarEstado.TabIndex = 5;
-            this.dataGridViewListarEstado.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridViewListarEstado_CellContentClick);
+            this.dataGridViewListarTALLER.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridViewListarTALLER.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.dataGridViewListarTALLER.Location = new System.Drawing.Point(12, 103);
+            this.dataGridViewListarTALLER.Name = "dataGridViewListarTALLER";
+            this.dataGridViewListarTALLER.Size = new System.Drawing.Size(867, 288);
+            this.dataGridViewListarTALLER.TabIndex = 21;
             // 
-            // Frm_prin_Estado
+            // frmPrinTaller
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 19F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(837, 464);
+            this.ClientSize = new System.Drawing.Size(952, 524);
             this.Controls.Add(this.btnElimianar);
             this.Controls.Add(this.btnEditar);
-            this.Controls.Add(this.btnNuevo);
-            this.Controls.Add(this.dataGridViewListarEstado);
+            this.Controls.Add(this.btNuevo);
+            this.Controls.Add(this.dataGridViewListarTALLER);
             this.Margin = new System.Windows.Forms.Padding(10, 6, 10, 6);
-            this.Name = "Frm_prin_Estado";
-            this.Text = "FrmEstado";
-            this.Load += new System.EventHandler(this.FrmEstado_Load);
+            this.Name = "frmPrinTaller";
+            this.Text = "frmPrinTaller";
+            this.Load += new System.EventHandler(this.frmPrinTaller_Load);
             this.Controls.SetChildIndex(this.panel1, 0);
             this.Controls.SetChildIndex(this.panel2, 0);
             this.Controls.SetChildIndex(this.button1, 0);
-            this.Controls.SetChildIndex(this.dataGridViewListarEstado, 0);
-            this.Controls.SetChildIndex(this.btnNuevo, 0);
+            this.Controls.SetChildIndex(this.dataGridViewListarTALLER, 0);
+            this.Controls.SetChildIndex(this.btNuevo, 0);
             this.Controls.SetChildIndex(this.btnEditar, 0);
             this.Controls.SetChildIndex(this.btnElimianar, 0);
             this.panel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridViewListarEstado)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridViewListarTALLER)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -144,7 +141,7 @@
 
         public System.Windows.Forms.Button btnElimianar;
         public System.Windows.Forms.Button btnEditar;
-        public System.Windows.Forms.Button btnNuevo;
-        public System.Windows.Forms.DataGridView dataGridViewListarEstado;
+        public System.Windows.Forms.Button btNuevo;
+        public System.Windows.Forms.DataGridView dataGridViewListarTALLER;
     }
 }

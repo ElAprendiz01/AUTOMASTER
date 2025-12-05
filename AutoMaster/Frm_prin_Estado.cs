@@ -14,7 +14,7 @@ namespace AutoMaster
 {
     public partial class Frm_prin_Estado : frm_base
     {
-        CNEstado _CNCatalogo = new CNEstado();
+        CNEstado _CNEstado = new CNEstado();
         CEestado CEestado = new CEestado();
         public Frm_prin_Estado()
         {
@@ -34,7 +34,7 @@ namespace AutoMaster
         }
         private void listar()
         {
-            dataGridViewListarEstado.DataSource = _CNCatalogo.ListarEstado();
+            dataGridViewListarEstado.DataSource = _CNEstado.ListarEstado();
             CPEstilos.AplicarEstilosProfesionales(dataGridViewListarEstado);
         }
 
@@ -87,5 +87,53 @@ namespace AutoMaster
             }
 
         }
+
+        private void btnElimianar_Click(object sender, EventArgs e)
+        {
+            eliminar();
+            listar();
+        }
+        // metodo eliminar 
+        private void eliminar()
+        {
+            if (dataGridViewListarEstado.Rows.Count==0)
+            {
+                // un mesanjebox de advertencia 
+                MessageBox.Show($"seleccione una fila para eliminar ", "Capos Vacíos ", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+
+
+
+            }
+            else
+            {
+                try
+                {
+                    if (dataGridViewListarEstado.SelectedColumns== null)
+                    {
+                        return;
+                    }
+                    else
+                    {
+                        DialogResult Resultado = MessageBox.Show("¿Desea eliminar este registro ?", "Eliminar", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+                        if (Resultado == DialogResult.Yes)
+                        {
+                            CEestado.Id_Estado = Convert.ToInt32(dataGridViewListarEstado.CurrentRow.Cells["Id_Estado"].Value.ToString());
+                            _CNEstado.EliminarEstado(CEestado);
+                            MessageBox.Show("Se ha eliminado correctamente");
+
+                        }
+                    }
+
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show($"Error al eliminar   {ex.Message}, ", "Eliminar ", MessageBoxButtons.OK, MessageBoxIcon.Error);
+
+
+                }
+
+            }
+        }
+
     }
 }

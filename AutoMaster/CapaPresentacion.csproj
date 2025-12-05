@@ -291,6 +291,42 @@
     <Compile Include="frmProveedores\frmPrinProveedores.Designer.cs">
       <DependentUpon>frmPrinProveedores.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmServiciosVehiculos\frmActualizarServicioDeVehiculos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmServiciosVehiculos\frmActualizarServicioDeVehiculos.Designer.cs">
+      <DependentUpon>frmActualizarServicioDeVehiculos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmServiciosVehiculos\frmPrinServicioDeVehiculos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmServiciosVehiculos\frmPrinServicioDeVehiculos.Designer.cs">
+      <DependentUpon>frmPrinServicioDeVehiculos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmServiciosVehiculos\frmInsertarServicioDeVehiculos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmServiciosVehiculos\frmInsertarServicioDeVehiculos.Designer.cs">
+      <DependentUpon>frmInsertarServicioDeVehiculos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmTaller\frmActualizarTaller.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmTaller\frmActualizarTaller.Designer.cs">
+      <DependentUpon>frmActualizarTaller.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmTaller\FrmInsertarTaller.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmTaller\FrmInsertarTaller.Designer.cs">
+      <DependentUpon>FrmInsertarTaller.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmTaller\frmPrinTaller.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmTaller\frmPrinTaller.Designer.cs">
+      <DependentUpon>frmPrinTaller.cs</DependentUpon>
+    </Compile>
     <Compile Include="FrmVentas\frmAtualizarVenta.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -512,6 +548,24 @@
     </EmbeddedResource>
     <EmbeddedResource Include="frmProveedores\frmPrinProveedores.resx">
       <DependentUpon>frmPrinProveedores.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmServiciosVehiculos\frmActualizarServicioDeVehiculos.resx">
+      <DependentUpon>frmActualizarServicioDeVehiculos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmServiciosVehiculos\frmInsertarServicioDeVehiculos.resx">
+      <DependentUpon>frmInsertarServicioDeVehiculos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmServiciosVehiculos\frmPrinServicioDeVehiculos.resx">
+      <DependentUpon>frmPrinServicioDeVehiculos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmTaller\frmActualizarTaller.resx">
+      <DependentUpon>frmActualizarTaller.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmTaller\FrmInsertarTaller.resx">
+      <DependentUpon>FrmInsertarTaller.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmTaller\frmPrinTaller.resx">
+      <DependentUpon>frmPrinTaller.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FrmVentas\frmAtualizarVenta.resx">
       <DependentUpon>frmAtualizarVenta.cs</DependentUpon>

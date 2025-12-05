@@ -1,7 +1,7 @@
 USE AUTOMASTER
 GO
-CREATE OR ALTER PROCEDURE SPInsertarTaller
-(
+CREATE OR ALTER PROCEDURE SPActualizarTaller
+(   @Id_Taller INT,
     @Id_Vehiculo INT,
     @Descripcion_Trabajo VARCHAR(500),
     @Fecha_Ingreso DATE,
@@ -13,41 +13,27 @@ AS
 BEGIN
     BEGIN TRY
         BEGIN TRAN
-            INSERT INTO Taller
-            (
-                Id_Vehiculo,
-                Descripcion_Trabajo,
-                Fecha_Ingreso,
-                Fecha_Salida,
-                Costo,
-                Responsable
-            )
-            VALUES
-            (
-                @Id_Vehiculo,
-                @Descripcion_Trabajo,
-                @Fecha_Ingreso,
-                @Fecha_Salida,
-                @Costo,
-                @Responsable
-            )
+             UPDATE  Taller
+            
+               SET Id_Vehiculo= @Id_Taller,
+                Descripcion_Trabajo = @Descripcion_Trabajo,
+                Fecha_Ingreso = @Fecha_Ingreso,
+                Fecha_Salida = @Fecha_Salida,
+                Costo = @Costo,
+                Responsable= @Responsable
+				WHERE Id_Taller = @Id_Taller
+            
         COMMIT
-        PRINT 'REGISTRO INSERTADO CORRECTAMENTE'
+        PRINT 'REGISTRO ACTUALIZADO CORRECTAMENTE'
     END TRY
     BEGIN CATCH
         ROLLBACK
-        PRINT 'ERROR AL INSERTAR ' + ERROR_MESSAGE()
+        PRINT 'ERROR AL ACTUALIZAR ' + ERROR_MESSAGE()
     END CATCH
 END
 GO
 
 SELECT * FROM Vehiculos
-SELECT * FROM Empleados
+SELECT * FROM Taller
 
-EXEC SPInsertarTaller 
-    @Id_Vehiculo = 1, 
-    @Descripcion_Trabajo = 'Mantenimiento General de Frenos',
-    @Fecha_Ingreso = '2025-11-23',
-    @Fecha_Salida = NULL, 
-    @Costo = 0.00, 
-    @Responsable = 1
+EXEC SPActualizarTaller  1,1 , 'SJSJ', '2025/10/15', NULL, 10.25, 1

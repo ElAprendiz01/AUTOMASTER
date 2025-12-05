@@ -175,8 +175,10 @@
     <Compile Include="CN_Financiamiento.cs" />
     <Compile Include="CN_Pagos.cs" />
     <Compile Include="CN_Proveedores.cs" />
+    <Compile Include="CN_TALLER.cs" />
     <Compile Include="CN_Vehiculos.cs" />
     <Compile Include="CN_Ventas.cs" />
+    <Compile Include="NSServicioVehiculo.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
