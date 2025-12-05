@@ -1,12 +1,7 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\gesua\\source\\repos\\AUTOMASTER\\AutoMaster\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{C6D210FA-9B97-46E8-98A1-D142C7B5FC16}|CapaPresentacion.csproj|c:\\users\\gesua\\source\\repos\\automaster\\automaster\\frm_iniciosesion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{C6D210FA-9B97-46E8-98A1-D142C7B5FC16}|CapaPresentacion.csproj|solutionrelative:frm_iniciosesion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    }
-  ],
+  "WorkspaceRootPath": "C:\\Users\\gesua\\AUTOMASTER\\AutoMaster\\",
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -14,7 +9,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 9,
+          "SelectedChildIndex": -1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -51,18 +46,6 @@
             {
               "$type": "Bookmark",
               "Name": "ST:132:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Frm_InicioSesion.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\gesua\\source\\repos\\AUTOMASTER\\AutoMaster\\Frm_InicioSesion.cs",
-              "RelativeDocumentMoniker": "Frm_InicioSesion.cs",
-              "ToolTip": "C:\\Users\\gesua\\source\\repos\\AUTOMASTER\\AutoMaster\\Frm_InicioSesion.cs [Dise\u00F1o]*",
-              "RelativeToolTip": "Frm_InicioSesion.cs [Dise\u00F1o]*",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-29T17:26:19.509Z",
-              "EditorCaption": " [Dise\u00F1o]"
             }
           ]
         }
