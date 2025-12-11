@@ -53,7 +53,7 @@
             // pictureBox1
             // 
             this.pictureBox1.Location = new System.Drawing.Point(-20, -29);
-            this.pictureBox1.Size = new System.Drawing.Size(306, 166);
+            this.pictureBox1.Size = new System.Drawing.Size(288, 166);
             // 
             // btnElimianar
             // 
@@ -111,6 +111,7 @@
             this.dataGridViewListarfACTURAS.Name = "dataGridViewListarfACTURAS";
             this.dataGridViewListarfACTURAS.Size = new System.Drawing.Size(830, 288);
             this.dataGridViewListarfACTURAS.TabIndex = 17;
+            this.dataGridViewListarfACTURAS.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridViewListarfACTURAS_CellContentClick);
             // 
             // frmPrinFactura
             // 

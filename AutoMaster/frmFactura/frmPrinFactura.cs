@@ -106,6 +106,10 @@ namespace AutoMaster.frmFactura
         {
 
         }
-        
+
+        private void dataGridViewListarfACTURAS_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
     }
 }

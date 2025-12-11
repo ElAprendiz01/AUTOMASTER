@@ -27,6 +27,10 @@ namespace CAPA_NEGOCIO
              objEstado.ActualizarEstodo(_CeEstado);
         }
         // metodo para eliminar estado
-       
+        public void EliminarEstado(CEestado _CeEstado)
+        {
+            objEstado.EliminareSTADO(_CeEstado);
+        }
+
     }
 }

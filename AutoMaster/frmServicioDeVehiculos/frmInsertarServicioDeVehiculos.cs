@@ -8,25 +8,18 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace AutoMaster
+namespace AutoMaster.frmServicioDeVehiculos
 {
-    public partial class Frm_InicioSesion : Form
+    public partial class frmInsertarServicioDeVehiculos : frm_base
     {
-        public Frm_InicioSesion()
+        public frmInsertarServicioDeVehiculos()
         {
             InitializeComponent();
         }
 
-
-        private void textBox1_TextChanged(object sender, EventArgs e)
+        private void frmInsertarServicioDeVehiculos_Load(object sender, EventArgs e)
         {
 
         }
-
-        private void BtnInicioSesion_Click(object sender, EventArgs e)
-        {
-
-        }
-
     }
 }

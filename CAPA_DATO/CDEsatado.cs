@@ -137,5 +137,28 @@ namespace CAPA_DATO
 
         #endregion
 
+        #region Eliminar eSTADO
+        public void EliminareSTADO(CEestado _ceeSTADO)
+        {
+            try
+            {
+                using (SqlConnection con = gestordeconexion.AbrirConexion())
+                {
+                    using (SqlCommand cmd = new SqlCommand("SP_Cls_Estados_Eliminar", con))
+                    {
+                        cmd.CommandType = CommandType.StoredProcedure;
+                        cmd.Parameters.Add(new SqlParameter("@Id_Estado", _ceeSTADO.Id_Estado));
+                        cmd.ExecuteNonQuery();
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"El sistema detecta {ex.Message}", "Error ", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+        }
+        #endregion
+
+
     }
 }

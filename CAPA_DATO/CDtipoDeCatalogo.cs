@@ -1,11 +1,12 @@
-﻿using System;
+﻿using CAPA_ENTIDAD;
+using Microsoft.Data.SqlClient;
+using System;
 using System.Collections.Generic;
+using System.Data;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using CAPA_ENTIDAD;
-using Microsoft.Data.SqlClient;
-using System.Data;
+using System.Windows.Forms;
 
 namespace CAPA_DATO
 {
@@ -128,6 +129,26 @@ namespace CAPA_DATO
         }
 
         #endregion
-
+        #region Eliminar 
+        public void Eliminar(CEtipoDeCatalogo _ceTipo)
+        {
+            try
+            {
+                using (SqlConnection con = _conexion.AbrirConexion())
+                {
+                    using (SqlCommand cmd = new SqlCommand("SP_Cls_Estados_Eliminar", con))
+                    {
+                        cmd.CommandType = CommandType.StoredProcedure;
+                        cmd.Parameters.Add(new SqlParameter("@Id_Tipo_Catalogo", _ceTipo.Id_Tipo_Catalogo));
+                        cmd.ExecuteNonQuery();
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"El sistema detecta {ex.Message}", "Error ", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+        }
+        #endregion
     }
 }
