@@ -27,6 +27,8 @@ namespace AutoMaster
     {
         public Frm_principal()
         {
+            var FrmUsuarioSesion = new Frm_InicioSesion();
+            FrmUsuarioSesion.ShowDialog();
             InitializeComponent();
         }
 
@@ -124,6 +126,11 @@ namespace AutoMaster
             _frmVehiculo.ShowDialog();
         }
 
+<<<<<<< HEAD
+        private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+
+=======
         private void ventasToolStripMenuItem_Click(object sender, EventArgs e)
         {
             frmPrinVentas _frmVentas = new frmPrinVentas();
@@ -146,6 +153,7 @@ namespace AutoMaster
         {
             frmPrinFactura _fac = new frmPrinFactura();
             _fac.ShowDialog();
+>>>>>>> 1c116be655964fdef3ee09159b2e41f21b466dce
         }
 
         private void tallerToolStripMenuItem_Click(object sender, EventArgs e)

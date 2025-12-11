@@ -16,5 +16,17 @@ namespace AutoMaster
         {
             InitializeComponent();
         }
+
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void BtnInicioSesion_Click(object sender, EventArgs e)
+        {
+
+        }
+
     }
 }

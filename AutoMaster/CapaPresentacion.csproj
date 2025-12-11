@@ -376,6 +376,13 @@
     <Compile Include="frm_Empleados\frmPrinEmpleados.Designer.cs">
       <DependentUpon>frmPrinEmpleados.cs</DependentUpon>
     </Compile>
+<<<<<<< HEAD
+    <Compile Include="Frm_InicioSesion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_InicioSesion.Designer.cs">
+      <DependentUpon>Frm_InicioSesion.cs</DependentUpon>
+=======
     <Compile Include="frm_Financiamiento\frmActualizarFinanciamiento.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -393,6 +400,7 @@
     </Compile>
     <Compile Include="frm_Financiamiento\frmPrinFinanciamiento.Designer.cs">
       <DependentUpon>frmPrinFinanciamiento.cs</DependentUpon>
+>>>>>>> 1c116be655964fdef3ee09159b2e41f21b466dce
     </Compile>
     <Compile Include="Frm_insertar_DatosPersonales.cs">
       <SubType>Form</SubType>
@@ -585,6 +593,10 @@
     <EmbeddedResource Include="frm_Empleados\frmPrinEmpleados.resx">
       <DependentUpon>frmPrinEmpleados.cs</DependentUpon>
     </EmbeddedResource>
+<<<<<<< HEAD
+    <EmbeddedResource Include="Frm_InicioSesion.resx">
+      <DependentUpon>Frm_InicioSesion.cs</DependentUpon>
+=======
     <EmbeddedResource Include="frm_Financiamiento\frmActualizarFinanciamiento.resx">
       <DependentUpon>frmActualizarFinanciamiento.cs</DependentUpon>
     </EmbeddedResource>
@@ -593,6 +605,7 @@
     </EmbeddedResource>
     <EmbeddedResource Include="frm_Financiamiento\frmPrinFinanciamiento.resx">
       <DependentUpon>frmPrinFinanciamiento.cs</DependentUpon>
+>>>>>>> 1c116be655964fdef3ee09159b2e41f21b466dce
     </EmbeddedResource>
     <EmbeddedResource Include="Frm_insertar_DatosPersonales.resx">
       <DependentUpon>Frm_insertar_DatosPersonales.cs</DependentUpon>
