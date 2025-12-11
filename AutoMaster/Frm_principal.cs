@@ -30,20 +30,102 @@ namespace AutoMaster
             InitializeComponent();
         }
 
-        private void menuStrip1_ItemClicked(object sender, ToolStripItemClickedEventArgs e)
-        {
+        //evento load 
 
+        private void Frm_principal_Load(object sender, EventArgs e)
+        {
+            // Muestra información del usuario logueado en las etiquetas
+           
+            if (lblUsuario != null && lblRol != null)
+            {
+                lblUsuario.Text = "Usuario: " + Frm_InicioSesion.User_nombre;
+                lblRol.Text = " | Rol: " + Frm_InicioSesion.User_Rol; // Usamos la variable cargo
+            }
+
+            // Ejecuta la lógica de permisos
+            GestionarPermisos();
         }
 
-        private void menuStrip1_ItemClicked_1(object sender, ToolStripItemClickedEventArgs e)
+        //Gestiona Permisos
+        private void GestionarPermisos()
         {
+            string rol = Frm_InicioSesion.User_Rol; // Recuperamos el rol desde el Login
+
+
+            // Módulos Administrativos
+            dToolStripMenuItem.Visible = false;           
+            catálogoToolStripMenuItem.Visible = false;   
+            catálogoToolStripMenuItem.Visible = false;    
+
+            // Módulos de Operación
+            ventasToolStripMenuItem.Visible = false;
+            fiancimientoToolStripMenuItem.Visible = false;
+            pagosToolStripMenuItem.Visible = false;
+            facturasToolStripMenuItem.Visible = false;
+
+            // Módulos de Taller
+            tallerToolStripMenuItem.Visible = false;
+            servicioDeVehículoToolStripMenuItem.Visible = false;
+            vehiculosToolStripMenuItem.Visible = false;
+
+            // LOGICA DEL ROL
+            if (rol == "Administrador")
+            {
+                // El administrador ve TODO
+                dToolStripMenuItem.Visible = true;
+                catálogoToolStripMenuItem.Visible = true;
+                catálogoToolStripMenuItem.Visible = true;
+                ventasToolStripMenuItem.Visible = true;
+                fiancimientoToolStripMenuItem.Visible = true;
+                pagosToolStripMenuItem.Visible = true;
+                facturasToolStripMenuItem.Visible = true;
+                tallerToolStripMenuItem.Visible = true;
+                servicioDeVehículoToolStripMenuItem.Visible = true;
+                vehiculosToolStripMenuItem.Visible = true;
+
                 
+            }
+            else if (rol == "Mecánico")
+            {
+                // El mecánico solo ve lo relacionado a Taller y Vehículos
+                tallerToolStripMenuItem.Visible = true;
+                servicioDeVehículoToolStripMenuItem.Visible = true;
+                vehiculosToolStripMenuItem.Visible = true;
+                datosPerosnalesToolStripMenuItem.Visible = false;
+                estadpToolStripMenuItem.Visible = false;
+                tipoDeCatalogoToolStripMenuItem.Visible = false;
+                contactoDeProveedoresToolStripMenuItem.Visible = false;
+                contactosToolStripMenuItem.Visible = false;
+                direccionesToolStripMenuItem.Visible = false;
+                proveedoresToolStripMenuItem.Visible = false;
+                clientesToolStripMenuItem.Visible = false;
+
+
+                
+            }
+            else if (rol == "Ventas") 
+            {
+                // El vendedor ve Ventas, Clientes, Facturas, Financiamiento
+                ventasToolStripMenuItem.Visible = true;
+                fiancimientoToolStripMenuItem.Visible = true;
+                pagosToolStripMenuItem.Visible = true;
+                facturasToolStripMenuItem.Visible = true;
+                vehiculosToolStripMenuItem.Visible = true;
+                tipoDeCatalogoToolStripMenuItem.Visible = false;
+                datosPerosnalesToolStripMenuItem.Visible = false;
+
+            }
         }
 
-        private void panel3_Paint(object sender, PaintEventArgs e)
+
+        private void menuStrip1_ItemClicked(object sender, ToolStripItemClickedEventArgs e) { }
+        private void menuStrip1_ItemClicked_1(object sender, ToolStripItemClickedEventArgs e) 
         {
 
+            
         }
+        private void panel3_Paint(object sender, PaintEventArgs e) { }
+        private void panel1_Paint(object sender, PaintEventArgs e) { }
 
         private void catálogoToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -56,10 +138,7 @@ namespace AutoMaster
            
         }
 
-        private void estadosToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-          
-        }
+        private void estadosToolStripMenuItem_Click(object sender, EventArgs e) { }
 
         private void estadpToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -69,7 +148,6 @@ namespace AutoMaster
 
         private void tipoDeCatalogoToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            // funciona como un boton para abrir el formulario de tipo de catalogo
             frm_Prin_TipoDeCatalogo _ventTipoCatalog = new frm_Prin_TipoDeCatalogo();
             _ventTipoCatalog.ShowDialog();
         }
@@ -78,14 +156,12 @@ namespace AutoMaster
         {
             Frm_Prin_DatosPersonales dtp = new Frm_Prin_DatosPersonales();
             dtp.ShowDialog();
-
         }
 
         private void contactosToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            frmPrinContacto contacto = new  frmPrinContacto();
+            frmPrinContacto contacto = new frmPrinContacto();
             contacto.ShowDialog();
-            
         }
 
         private void direccionesToolStripMenuItem_Click(object sender, EventArgs e)
@@ -108,6 +184,7 @@ namespace AutoMaster
 
         private void dToolStripMenuItem_Click(object sender, EventArgs e)
         {
+            // Este es el menú de EMPLEADOS
             frmPrinEmpleados empleados = new frmPrinEmpleados();
             empleados.ShowDialog();
         }
@@ -158,6 +235,16 @@ namespace AutoMaster
         {
             frmPrinServicioDeVehiculos _servicioVehiculo = new frmPrinServicioDeVehiculos();
             _servicioVehiculo.ShowDialog();
+        }
+
+        // Cierre de sesión al cerrar el formulario principal
+        private void Frm_principal_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void lblRol_Click(object sender, EventArgs e)
+        {
 
         }
     }
