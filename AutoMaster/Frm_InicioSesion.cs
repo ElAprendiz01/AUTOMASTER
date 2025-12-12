@@ -20,6 +20,7 @@ namespace AutoMaster
             InitializeComponent();
         }
 
+
         private void Frm_InicioSesion_Load(object sender, EventArgs e)
         {
             // Opcional: Poner el foco en la caja de texto usuario
@@ -103,6 +104,19 @@ namespace AutoMaster
         {
 
         }
+
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void BtnInicioSesion_Click(object sender, EventArgs e)
+        {
+
+        }
+
+
     }
 }
     

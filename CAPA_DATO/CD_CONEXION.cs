@@ -11,7 +11,7 @@ namespace CAPA_DATO
     public class CD_CONEXION
     {
 
-        /*/La cadena de conexión es lo que debe ser 'readonly' o estático, no la SqlConnection.
+        /*/La cadena de conexión es lo que debe ser 'readonly'  o estático, no la SqlConnection.
             La conexión en sí se creará nueva cada vez que se necesite.
             implementacion de nuevo metodo de conexion para que me permita tener mas conexiones abiertas simultaneamente
             la docuentacion dice que coneste metodo se hace lo siguiente : 
