@@ -49,39 +49,45 @@
             // panel1
             // 
             this.panel1.Controls.Add(this.label4);
-            this.panel1.Size = new System.Drawing.Size(721, 56);
+            this.panel1.Margin = new System.Windows.Forms.Padding(9, 7, 9, 7);
+            this.panel1.Size = new System.Drawing.Size(1082, 91);
             this.panel1.Controls.SetChildIndex(this.pictureBox1, 0);
             this.panel1.Controls.SetChildIndex(this.label4, 0);
             // 
             // panel2
             // 
-            this.panel2.Location = new System.Drawing.Point(0, 365);
-            this.panel2.Size = new System.Drawing.Size(721, 46);
+            this.panel2.Location = new System.Drawing.Point(0, 596);
+            this.panel2.Margin = new System.Windows.Forms.Padding(9, 7, 9, 7);
+            this.panel2.Size = new System.Drawing.Size(1082, 75);
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(617, 310);
+            this.button1.Location = new System.Drawing.Point(926, 506);
+            this.button1.Margin = new System.Windows.Forms.Padding(9, 7, 9, 7);
             this.button1.TabIndex = 5;
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Size = new System.Drawing.Size(0, 100);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.pictureBox1.Size = new System.Drawing.Size(0, 163);
             // 
             // txbIDTIPOCATALOGO
             // 
             this.txbIDTIPOCATALOGO.BackColor = System.Drawing.SystemColors.Info;
-            this.txbIDTIPOCATALOGO.Location = new System.Drawing.Point(200, 70);
+            this.txbIDTIPOCATALOGO.Location = new System.Drawing.Point(300, 114);
+            this.txbIDTIPOCATALOGO.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txbIDTIPOCATALOGO.Name = "txbIDTIPOCATALOGO";
-            this.txbIDTIPOCATALOGO.Size = new System.Drawing.Size(139, 27);
+            this.txbIDTIPOCATALOGO.Size = new System.Drawing.Size(206, 36);
             this.txbIDTIPOCATALOGO.TabIndex = 1;
             this.txbIDTIPOCATALOGO.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txbIDTIPOCATALOGO_KeyPress);
             // 
             // Lbl_IdTipoCatalogo
             // 
             this.Lbl_IdTipoCatalogo.AutoSize = true;
-            this.Lbl_IdTipoCatalogo.Location = new System.Drawing.Point(24, 78);
+            this.Lbl_IdTipoCatalogo.Location = new System.Drawing.Point(36, 127);
+            this.Lbl_IdTipoCatalogo.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Lbl_IdTipoCatalogo.Name = "Lbl_IdTipoCatalogo";
-            this.Lbl_IdTipoCatalogo.Size = new System.Drawing.Size(160, 19);
+            this.Lbl_IdTipoCatalogo.Size = new System.Drawing.Size(246, 31);
             this.Lbl_IdTipoCatalogo.TabIndex = 4;
             this.Lbl_IdTipoCatalogo.Text = "ID Tipo De Catálogo";
             this.Lbl_IdTipoCatalogo.Click += new System.EventHandler(this.Lbl_IdTipoCatalogo_Click);
@@ -89,18 +95,20 @@
             // txbCodigoCatalogo
             // 
             this.txbCodigoCatalogo.BackColor = System.Drawing.SystemColors.Info;
-            this.txbCodigoCatalogo.Location = new System.Drawing.Point(200, 142);
+            this.txbCodigoCatalogo.Location = new System.Drawing.Point(300, 232);
+            this.txbCodigoCatalogo.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txbCodigoCatalogo.Name = "txbCodigoCatalogo";
-            this.txbCodigoCatalogo.Size = new System.Drawing.Size(139, 27);
+            this.txbCodigoCatalogo.Size = new System.Drawing.Size(206, 36);
             this.txbCodigoCatalogo.TabIndex = 2;
             this.txbCodigoCatalogo.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txbIDTIPOCATALOGO_KeyPress);
             // 
             // lbelCodigoCatalogo
             // 
             this.lbelCodigoCatalogo.AutoSize = true;
-            this.lbelCodigoCatalogo.Location = new System.Drawing.Point(24, 150);
+            this.lbelCodigoCatalogo.Location = new System.Drawing.Point(36, 245);
+            this.lbelCodigoCatalogo.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbelCodigoCatalogo.Name = "lbelCodigoCatalogo";
-            this.lbelCodigoCatalogo.Size = new System.Drawing.Size(158, 19);
+            this.lbelCodigoCatalogo.Size = new System.Drawing.Size(241, 31);
             this.lbelCodigoCatalogo.TabIndex = 4;
             this.lbelCodigoCatalogo.Text = "Código de Catálogo";
             this.lbelCodigoCatalogo.Click += new System.EventHandler(this.Lbl_IdTipoCatalogo_Click);
@@ -108,18 +116,20 @@
             // txbNombreCatalogo
             // 
             this.txbNombreCatalogo.BackColor = System.Drawing.SystemColors.Info;
-            this.txbNombreCatalogo.Location = new System.Drawing.Point(555, 70);
+            this.txbNombreCatalogo.Location = new System.Drawing.Point(832, 114);
+            this.txbNombreCatalogo.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txbNombreCatalogo.Name = "txbNombreCatalogo";
-            this.txbNombreCatalogo.Size = new System.Drawing.Size(139, 27);
+            this.txbNombreCatalogo.Size = new System.Drawing.Size(206, 36);
             this.txbNombreCatalogo.TabIndex = 3;
             this.txbNombreCatalogo.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txbIDTIPOCATALOGO_KeyPress);
             // 
             // lblNombreCatalogo
             // 
             this.lblNombreCatalogo.AutoSize = true;
-            this.lblNombreCatalogo.Location = new System.Drawing.Point(379, 78);
+            this.lblNombreCatalogo.Location = new System.Drawing.Point(568, 127);
+            this.lblNombreCatalogo.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblNombreCatalogo.Name = "lblNombreCatalogo";
-            this.lblNombreCatalogo.Size = new System.Drawing.Size(167, 19);
+            this.lblNombreCatalogo.Size = new System.Drawing.Size(255, 31);
             this.lblNombreCatalogo.TabIndex = 4;
             this.lblNombreCatalogo.Text = "Nombre de Catálogo";
             this.lblNombreCatalogo.Click += new System.EventHandler(this.Lbl_IdTipoCatalogo_Click);
@@ -127,9 +137,10 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(388, 149);
+            this.label3.Location = new System.Drawing.Point(582, 243);
+            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(57, 19);
+            this.label3.Size = new System.Drawing.Size(88, 31);
             this.label3.TabIndex = 4;
             this.label3.Text = "Activo";
             this.label3.Click += new System.EventHandler(this.Lbl_IdTipoCatalogo_Click);
@@ -137,9 +148,10 @@
             // checkBoxactivoCatalogo
             // 
             this.checkBoxactivoCatalogo.AutoSize = true;
-            this.checkBoxactivoCatalogo.Location = new System.Drawing.Point(549, 148);
+            this.checkBoxactivoCatalogo.Location = new System.Drawing.Point(824, 241);
+            this.checkBoxactivoCatalogo.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.checkBoxactivoCatalogo.Name = "checkBoxactivoCatalogo";
-            this.checkBoxactivoCatalogo.Size = new System.Drawing.Size(154, 23);
+            this.checkBoxactivoCatalogo.Size = new System.Drawing.Size(235, 35);
             this.checkBoxactivoCatalogo.TabIndex = 4;
             this.checkBoxactivoCatalogo.Text = "Activo o inactivo";
             this.checkBoxactivoCatalogo.UseVisualStyleBackColor = true;
@@ -148,17 +160,20 @@
             // 
             this.panel3.BackColor = System.Drawing.SystemColors.InactiveCaption;
             this.panel3.Controls.Add(this.listarIdTipoCat);
-            this.panel3.Location = new System.Drawing.Point(36, 205);
+            this.panel3.Location = new System.Drawing.Point(54, 334);
+            this.panel3.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(321, 138);
+            this.panel3.Size = new System.Drawing.Size(482, 225);
             this.panel3.TabIndex = 6;
             // 
             // listarIdTipoCat
             // 
             this.listarIdTipoCat.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.listarIdTipoCat.Location = new System.Drawing.Point(14, 14);
+            this.listarIdTipoCat.Location = new System.Drawing.Point(21, 23);
+            this.listarIdTipoCat.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.listarIdTipoCat.Name = "listarIdTipoCat";
-            this.listarIdTipoCat.Size = new System.Drawing.Size(288, 107);
+            this.listarIdTipoCat.RowHeadersWidth = 62;
+            this.listarIdTipoCat.Size = new System.Drawing.Size(432, 175);
             this.listarIdTipoCat.TabIndex = 0;
             this.listarIdTipoCat.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
             // 
@@ -170,10 +185,10 @@
             this.btnGuardar.Cursor = System.Windows.Forms.Cursors.Cross;
             this.btnGuardar.Font = new System.Drawing.Font("Impact", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnGuardar.ForeColor = System.Drawing.SystemColors.HotTrack;
-            this.btnGuardar.Location = new System.Drawing.Point(479, 310);
-            this.btnGuardar.Margin = new System.Windows.Forms.Padding(6, 4, 6, 4);
+            this.btnGuardar.Location = new System.Drawing.Point(718, 506);
+            this.btnGuardar.Margin = new System.Windows.Forms.Padding(9, 7, 9, 7);
             this.btnGuardar.Name = "btnGuardar";
-            this.btnGuardar.Size = new System.Drawing.Size(96, 55);
+            this.btnGuardar.Size = new System.Drawing.Size(144, 90);
             this.btnGuardar.TabIndex = 7;
             this.btnGuardar.Text = "Guardar";
             this.btnGuardar.UseVisualStyleBackColor = false;
@@ -187,18 +202,19 @@
             this.label4.BackColor = System.Drawing.Color.Transparent;
             this.label4.Font = new System.Drawing.Font("Modern No. 20", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.label4.Location = new System.Drawing.Point(179, 9);
-            this.label4.MaximumSize = new System.Drawing.Size(400, 0);
+            this.label4.Location = new System.Drawing.Point(268, 15);
+            this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label4.MaximumSize = new System.Drawing.Size(600, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(299, 31);
+            this.label4.Size = new System.Drawing.Size(438, 45);
             this.label4.TabIndex = 38;
             this.label4.Text = "Registro  De Catálogos";
             // 
             // Frm_insertar_Nuevo_catalogo
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 19F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(15F, 31F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(721, 411);
+            this.ClientSize = new System.Drawing.Size(1082, 671);
             this.Controls.Add(this.btnGuardar);
             this.Controls.Add(this.panel3);
             this.Controls.Add(this.checkBoxactivoCatalogo);
@@ -209,7 +225,7 @@
             this.Controls.Add(this.txbNombreCatalogo);
             this.Controls.Add(this.txbCodigoCatalogo);
             this.Controls.Add(this.txbIDTIPOCATALOGO);
-            this.Margin = new System.Windows.Forms.Padding(10, 6, 10, 6);
+            this.Margin = new System.Windows.Forms.Padding(15, 10, 15, 10);
             this.Name = "Frm_insertar_Nuevo_catalogo";
             this.Text = "FrmAgregarNuevo_catalogo";
             this.Load += new System.EventHandler(this.FrmAgregarNuevo_catalogo_Load);

@@ -39,6 +39,9 @@
     <Reference Include="Azure.Identity, Version=1.14.2.0, Culture=neutral, PublicKeyToken=92742159e12e44c8, processorArchitecture=MSIL">
       <HintPath>..\AutoMaster\packages\Azure.Identity.1.14.2\lib\netstandard2.0\Azure.Identity.dll</HintPath>
     </Reference>
+    <Reference Include="BCrypt.Net-Next, Version=4.0.3.0, Culture=neutral, PublicKeyToken=1e11be04b6288443, processorArchitecture=MSIL">
+      <HintPath>..\AutoMaster\packages\BCrypt.Net-Next.4.0.3\lib\net472\BCrypt.Net-Next.dll</HintPath>
+    </Reference>
     <Reference Include="Microsoft.Bcl.AsyncInterfaces, Version=8.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
       <HintPath>..\AutoMaster\packages\Microsoft.Bcl.AsyncInterfaces.8.0.0\lib\net462\Microsoft.Bcl.AsyncInterfaces.dll</HintPath>
     </Reference>
@@ -173,12 +176,17 @@
     <Compile Include="CN_Empleados.cs" />
     <Compile Include="CN_Factura.cs" />
     <Compile Include="CN_Financiamiento.cs" />
+    <Compile Include="CN_InicioSesion.cs" />
     <Compile Include="CN_Pagos.cs" />
     <Compile Include="CN_Proveedores.cs" />
 
     <Compile Include="CN_Usuario.cs" />
 
     <Compile Include="CN_TALLER.cs" />
+
+    <Compile Include="CN_Usuarios.cs" />
+
+
 
     <Compile Include="CN_Vehiculos.cs" />
     <Compile Include="CN_Ventas.cs" />

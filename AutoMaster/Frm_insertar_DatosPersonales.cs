@@ -109,5 +109,14 @@ namespace AutoMaster
                 MessageBox.Show("Error al guardar el Los Datos : " + ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            // Instanciamos el formulario de Registro
+            Frm_RegistroUsuario frm = new Frm_RegistroUsuario();
+
+            // Lo mostramos como ventana modal (bloquea la de atrás hasta que cierres esta)
+            frm.ShowDialog();
+        }
     }
 }
